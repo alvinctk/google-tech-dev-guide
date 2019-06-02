@@ -1,4 +1,4 @@
-# google-tech-dev-guide
+# Preparation for technical Interview
 
 ## Introduction 
 Google Interview Study
