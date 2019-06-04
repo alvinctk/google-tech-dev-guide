@@ -12,7 +12,7 @@ maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
 
 from collections import defaultdict
 
-def max_span(l):
+def maxSpan(l):
     """
     l = list
 
@@ -29,6 +29,13 @@ def max_span(l):
     Cons: Space Complexity O(n)
     Pros: Improvement in time complexity to O(n) from O(n^2)
     """
+    if l is None or len(l) == 0:
+        # Empty list: max span = 0
+        max_span = 0
+        print("maxSpan({}) = {}, empty list".format(l, max_span))
+        print("\tOccurs from a empty element")
+        print()
+        return max_span
 
     # Preprocess a list into dictionary of value -> list of indices where
     # value occurs
@@ -45,56 +52,54 @@ def max_span(l):
     # j is the index value where last k occurs after index i
     all_spans = list()
 
-    # Compute the max span of each unique value in the list
+    k_m, max_span, i, j = 0, 0, -1, -1
+
+   # Retrieve the maximum span of all the unique values in the list
+   # And compute the max span of each unique value in the list
     for k, v in indices.items():
 
-        if v is None:
-            # Empty list: max span = 0
-            all_spans.append((k, 0, -1, -1))
+        # There is one unique element in list: max span = 1
+        # v[-1] - v[0] + 1 = 1.
+        # Or
+        # At least two elements in list: max span = number of elements
+        # between them inclusively.
+        # The maximum span range from the first occurance of k to
+        # the last occurance of k in the indices
+        m = v[-1] - v[0] + 1
 
-        elif len(v) == 1:
-            # Only one unique element in list: max span = 1
-            all_spans.append((k, 1, v[0], -1))
+        # storing each unique span value to print later
+        all_spans.append((k, m, v[0], v[-1]))
 
-        else:
-            # At least two elements in list: max span = number of elements
-            # between them inclusively.
-            # The maximum span range from the first occurance of k to
-            # the last occurance of k in the indices
-            all_spans.append((k, v[-1] - v[0] + 1, v[0], v[-1]))
-
-    # Retrieve the maximum span of all the unique values in the list
-    k, m, i, j = max(all_spans, key=lambda x: x[1]) if all_spans is not None else (-1, 0, -1, -1)
+        if m > max_span:
+            k_m, max_span, i, j = k, m, v[0], v[-1]
 
     # Prints maxSpan of list
-    if m == 0:
-        print("maxSpan({}) = {}, empty list)".format(l, m))
-    elif m == 1:
-        print("maxSpan({}) = {}, for single element {}".format(l, m, k))
+    if max_span == 1:
+        print("maxSpan({}) = {}, for single element {}".format(l, max_span, k))
     else:
-        print("maxSpan({}) = {}".format(l, m))
+        # max_span > 1
+        print("maxSpan({}) = {}".format(l, max_span))
 
     # Prints where the max spans occurs
     for k_, m_, i_, j_ in all_spans:
-        if m == m_:
-            if m > 1:
-                print("\tOccurs from {} at index {} to {} at index {}".format(k_, i_, k_, j_))
-            elif m == 1:
-                print("\tOccurs from a single element {} at index {}".format(k_, i_))
-            elif m == 0:
-                print("\tOccurs from a empty element")
+        if max_span == m_:
+            if max_span > 1:
+                print("\tOccurs from {} at index {} to {} at index {}"
+                      .format(k_, i_, k_, j_))
+            else:
+                print("\tOccurs from a single element {} at index {}"
+                      .format(k_, i_))
 
     # Prints each unique element's max span
-    print("\tMax spans (k, max, i, j) for each unique value k are = {}".format(all_spans))
+    print("\tMax spans (k, max, i, j) for each unique value k are = {}"
+          .format(all_spans))
     print()
-
-    return m
+    return max_span
 
 if  __name__ == "__main__":
-
-    max_span([1, 2, 3, 4, 5])
-    max_span([1, 2, 1, 1, 3])
-    max_span([1, 4, 2, 1, 4, 1, 4])
-    max_span([1, 4, 2, 1, 4, 4, 4])
-
-
+    maxSpan(None)
+    maxSpan([])
+    maxSpan([1, 2, 3, 4, 5])
+    maxSpan([1, 2, 1, 1, 3])
+    maxSpan([1, 4, 2, 1, 4, 1, 4])
+    maxSpan([1, 4, 2, 1, 4, 4, 4])
