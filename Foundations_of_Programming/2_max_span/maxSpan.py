@@ -24,10 +24,10 @@ def max_span(l):
     indices. This helps to optimize the computation of number of elements
     between the same value. Suppose element 1 occurs at index 1 and index 4.
     v is the dictionary of list of indices. v[1] = [1, 4]
-    Then max_span = v[1][i+1] - v[i][i] + 1 = 4, where i+1 = 4 and i=1
+    Then max_span = v[1][-1] - v[i][0] + 1 = 4, where -1 refers to last index
 
     Cons: Space Complexity O(n)
-    Pros: Improvement in time complexity to O(n)
+    Pros: Improvement in time complexity to O(n) from O(n^2)
     """
 
     # Preprocess a list into dictionary of value -> list of indices where
@@ -41,8 +41,8 @@ def max_span(l):
     # meaningful message at the end.
     # The tuple is (k, span_value, i, j) where
     # k is the unique value in the list
-    # i is the index value where k occurs in a list,
-    # j is the index value where k occurs after index i
+    # i is the index value where first k occurs in a list,
+    # j is the index value where last k occurs after index i
     all_spans = list()
 
     # Compute the max span of each unique value in the list
@@ -59,10 +59,9 @@ def max_span(l):
         else:
             # At least two elements in list: max span = number of elements
             # between them inclusively.
-            spans = [(v[i+1] - v[i] + 1, v[i], v[i+1]) for i, _ in enumerate(v[:-1])]
-            max_spans = max(spans, key=lambda x: x[0])
-
-            all_spans.append((k, max_spans[0], max_spans[1], max_spans[2]))
+            # The maximum span range from the first occurance of k to
+            # the last occurance of k in the indices
+            all_spans.append((k, v[-1] - v[0] + 1, v[0], v[-1]))
 
     # Retrieve the maximum span of all the unique values in the list
     k, m, i, j = max(all_spans, key=lambda x: x[1]) if all_spans is not None else (-1, 0, -1, -1)
