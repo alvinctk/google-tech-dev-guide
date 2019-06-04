@@ -24,7 +24,7 @@ def max_span(l):
     indices. This helps to optimize the computation of number of elements
     between the same value. Suppose element 1 occurs at index 1 and index 4.
     v is the dictionary of list of indices. v[1] = [1, 4]
-    Then max_span = v[1][-1] - v[i][0] + 1 = 4, where -1 refers to last index
+    Then max_span = v[1][-1] - v[1][0] + 1 = 4, where -1 refers to last index
 
     Cons: Space Complexity O(n)
     Pros: Improvement in time complexity to O(n) from O(n^2)
