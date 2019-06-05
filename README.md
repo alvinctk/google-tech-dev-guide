@@ -13,3 +13,6 @@ Interview study to reinforces basic software engineering skills.
 2. [Find the max span of a given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/2_max_span/maxSpan.py)
 
 3. [Remove all occurance of a pattern in a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/3_without_string/withoutString.py)
+
+4. [Sum numbers in a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
+
