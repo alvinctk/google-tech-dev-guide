@@ -71,7 +71,6 @@ def withoutString(s, r):
             # Add string before removed pattern
             modified += s[i : s_r]
             i = s_r + m
-            print(s_r, "modified", modified)
 
     if i < n:
         # Add remaining string s back to modified string
@@ -80,9 +79,20 @@ def withoutString(s, r):
     print("withoutString(\"{}\", \"{}\") = {}".format(s, r, modified))
     return modified
 
-if __name__ == "__main__":
+def withoutString2(s, r):
+    modified = s.replace(r, "")
+    print("withoutString(\"{}\", \"{}\") = {}".format(s, r, modified))
+    return modified
 
+if __name__ == "__main__":
+    print("Using without str.replace")
     withoutString("Hello there", "llo")
     withoutString("Hello there", "e")
     withoutString("Hello there", "x")
     withoutString("xxx", "xx")
+    print("")
+    print("Using str.replace")
+    withoutString2("Hello there", "llo")
+    withoutString2("Hello there", "e")
+    withoutString2("Hello there", "x")
+    withoutString2("xxx", "xx")
