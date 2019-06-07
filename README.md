@@ -24,3 +24,5 @@ Quicksort
 4. [Sum numbers in a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
 
 5. [Find a balance sum in an given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/5_can_balance/canBalance.py)
+
+6. [Hangman game](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/6_hangman/hangman.py)
