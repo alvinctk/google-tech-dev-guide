@@ -6,7 +6,10 @@ Interview study to reinforces basic software engineering skills.
 ## Resources
 [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 
-## Sorting
+## Hackerrank
+
+[String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
+
 Quicksort
 - [pivot using midpoint value](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/quicksort/quicksort.py)
 
