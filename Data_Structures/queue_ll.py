@@ -6,8 +6,8 @@ Space used must be linear in the number of items in a queue
 Queue() -> creates a new Queue object
 .is_empty()
 len() -> number of elements in queue
-.push(item) -> push item into Queue
-.pop() -> Remove and return the most recent item in the queue
+.enqueue(item) -> push item into Queue
+.dequeue() -> Remove and return the most recent item in the queue
 """
 class Node:
     """
