@@ -8,11 +8,15 @@ Interview study to reinforces basic software engineering skills.
 
 ## Data structures
 
-Stack
+FILO Stack
 - [Linked listed implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_ll.py)
 
 - [List (or array) implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_array.py)
 
+FIFO Queue
+- [Linked listed implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_ll.py)
+
+- [List (or array) implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_array.py)
 
 
 ## Algorithms
