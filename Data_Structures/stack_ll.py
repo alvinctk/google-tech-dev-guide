@@ -25,7 +25,6 @@ class Stack:
     """
     Linked list implementation of a stack
     """
-
     def __init__(self):
         """
         Initialize the stack
