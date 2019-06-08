@@ -6,15 +6,15 @@ Interview study to reinforces basic software engineering skills.
 ## Resources
 [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 
-## Hackerrank
+## Data structures
 
-[String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
+
+## Algorithms
 
 Quicksort
 - [pivot using midpoint value](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/quicksort/quicksort.py)
 
-## Problems
-**Google Tech Dev Guide**
+## **Google Tech Dev Guide**
 1. [Find the find longest word in dictionary that is a subsequence of a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
 
 2. [Find the max span of a given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/2_max_span/maxSpan.py)
@@ -26,3 +26,10 @@ Quicksort
 5. [Find a balance sum in an given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/5_can_balance/canBalance.py)
 
 6. [Hangman game](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/6_hangman/hangman.py)
+
+
+## Hackerrank
+
+[String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
+
+
