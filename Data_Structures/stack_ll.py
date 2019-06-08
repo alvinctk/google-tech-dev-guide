@@ -28,7 +28,7 @@ class Stack:
 
     def __init__(self):
         """
-        Initialize the string
+        Initialize the stack
         """
         self.top = None
         self.length = 0
