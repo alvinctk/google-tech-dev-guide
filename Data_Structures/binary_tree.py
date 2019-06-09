@@ -1,7 +1,6 @@
 """
 Binary Tree
 """
-
 class Binary_Node:
     """
     Binary Node class that creates a node object to be used in the Binary
@@ -19,7 +18,6 @@ class Binary_Node:
 
     def __str__(self):
         return str(self.value)
-
 
 class Binary_Tree:
     """
@@ -109,7 +107,6 @@ class Binary_Tree:
                 self.print_tree_value(node.right, ascending)
                 print(node.value, end=" ")
                 self.print_tree_value(node.left, ascending)
-
 
 def test_print(values, *args):
     """
