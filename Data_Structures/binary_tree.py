@@ -27,23 +27,44 @@ class Binary_Tree:
         - contains(value) => find if a value contains in the tree
         - insert(value) => insert a value into the tree
         - print_tree => prints a tree in ascending order by default
+        - find_min => returns min value if tree not empty. Otherwise, None.
+        - find_max => returns max value if tree not empty. Otherwise, None.
     """
     def __init__(self):
+        """
+        Initialize root
+        """
         self.root = None
 
     def get_root(self):
+        """
+        Return root
+        """
         return self.root
 
     def make_empty(self):
+        """
+        Reset binary tree to empty
+        """
         self.root = None
 
     def is_empty(self):
+        """
+        check if binary tree is empty
+        """
         return self.root is None
 
     def contains(self, value):
+        """
+        Returns True if value contains in binary tree.
+        Otherwise, returns False if value does not contains in binary tree.
+        """
         return self.contains_value(value, self.root)
 
     def contains_value(self, value, node):
+        """
+        Recursive helper function to check if a value contains in binary tree.
+        """
         if node is None:
             return False
 
