@@ -77,12 +77,19 @@ class Binary_Tree:
 
     def find_min(self):
         """
-        Returns the minimum value if tree is not empty. Otherwise, returns
-        None.
+        Returns the minimum value for the whole tree. Otherwise, returns
+        None if empty.
         """
-        if self.root is None:
+        return self.find_min_value(self.root)
+
+    def find_min_value(self, node):
+        """
+        Returns the minimum value for a subtree/tree. Otherwise, returns
+        None if empty
+        """
+        if node is None:
             return None
-        current = self.root
+        current = node
         while (current.left is not None):
             current = current.left
         return current.value
@@ -99,6 +106,41 @@ class Binary_Tree:
             current = current.right
         return current.value
 
+    def remove(self, value):
+        self.remove_value(value, self.root)
+
+    def remove_value(self, value, node):
+        """
+        Recursive helper to remove element
+        If the removal node has no children, simply remove the node.
+        If the removal node has one children,
+        """
+        if node is None:
+            return node
+        if value < node.value:
+            node.left = self.remove_value(value, node.left)
+        elif value > node.value:
+            node.right = self.remove_value(value, node.right)
+
+        elif node.left is not None and node.right is not None:
+            # Two children
+
+            # Replace current value by the smallest value of the right
+            # subtree.
+            node.value = self.find_min_value(node.right)
+
+            # Remove the smallest value of the right subtree since its value
+            # has been copied to the node to be removed.
+
+            # Since the smallest value node, it has either 0 or 1 children.
+            self.remove_value(node.value, node.right)
+        else:
+            # One or zero children
+            if node.left is not None:
+                node = node.left
+            else:
+                node = node.right
+        return node
     def insert(self, value):
         """
         Insert value into Binary Tree by creating a binary node
@@ -125,7 +167,7 @@ class Binary_Tree:
             else:
                 self.insert_value(value, node.right)
 
-    def print_tree(self, ascending=True):
+    def print_tree(self, ascending=True, ):
         """
         To print tree value.
         """
@@ -152,8 +194,57 @@ class Binary_Tree:
                 self.print_tree_value(node.right, ascending)
                 print(node.value, end=" ")
                 self.print_tree_value(node.left, ascending)
+    def display(self):
+        lines, _, _, _ = self.display_aux(self.root)
+        for line in lines:
+            print(line)
 
-def test_print(values, *args):
+    def display_aux(self, node):
+        """Returns list of strings, width, height, and horizontal coordinate of the root."""
+        # No child.
+        if node.right is None and node.left is None:
+            line = '%s' % node.value
+            width = len(line)
+            height = 1
+            middle = width // 2
+            return [line], width, height, middle
+
+        # Only left child.
+        if node.right is None:
+            lines, n, p, x = self.display_aux(node.left)
+            s = '%s' % node.value
+            u = len(s)
+            first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s
+            second_line = x * ' ' + '/' + (n - x - 1 + u) * ' '
+            shifted_lines = [line + u * ' ' for line in lines]
+            return [first_line, second_line] + shifted_lines, n + u, p + 2, n + u // 2
+
+        # Only right child.
+        if node.left is None:
+            lines, n, p, x = self.display_aux(node.right)
+            s = '%s' % node.value
+            u = len(s)
+            first_line = s + x * '_' + (n - x) * ' '
+            second_line = (u + x) * ' ' + '\\' + (n - x - 1) * ' '
+            shifted_lines = [u * ' ' + line for line in lines]
+            return [first_line, second_line] + shifted_lines, n + u, p + 2, u // 2
+
+        # Two children.
+        left, n, p, x = self.display_aux(node.left)
+        right, m, q, y = self.display_aux(node.right)
+        s = '%s' % node.value
+        u = len(s)
+        first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s + y * '_' + (m - y) * ' '
+        second_line = x * ' ' + '/' + (n - x - 1 + u + y) * ' ' + '\\' + (m - y - 1) * ' '
+        if p < q:
+            left += [n * ' '] * (q - p)
+        elif q < p:
+            right += [m * ' '] * (p - q)
+        zipped_lines = zip(left, right)
+        lines = [first_line, second_line] + [a + u * ' ' + b for a, b in zipped_lines]
+        return lines, n + m + u, max(p, q) + 2, n + u // 2
+
+def test_print(values, contains, remove):
     """
     To test the functions of binary tree
     """
@@ -161,13 +252,18 @@ def test_print(values, *args):
     bt = Binary_Tree()
     for x in values:
         bt.insert(x)
-
+    print(end="")
+    bt.display()
     print("The following values are inserted into tree:", values)
-    print("Tree in ascending order:")
+    print("Tree in ascending order:", end=" ")
     bt.print_tree()
-
-    print("\nTree in descending order:")
+    print("\nTree in descending order:", end=" ")
     bt.print_tree(ascending=False)
+    print("Removing {}:".format(remove), end=" ")
+    bt.remove(remove)
+    bt.print_tree()
+    print()
+    bt.display()
 
     print("\nroot =", bt.root)
     if bt.root is not None:
@@ -175,14 +271,15 @@ def test_print(values, *args):
         print("root.right =", bt.root.right)
     print("tree's min value =", bt.find_min())
     print("tree's max value =", bt.find_max())
-    for c in args:
+    for c in contains:
         print("does {} contains in tree = {}".format(c, bt.contains(c)))
-
+    print()
 if __name__ == "__main__":
-    x = [2, 4, 1, 8, 8, 10, 9]
+    b = [6, 2, 8, 1, 5, 3, 4]
+    x = [1, 2, 4, 8, 8, 10, 9]
     y = [12, 6, 14, 3]
     z = [3]
     a = []
-    for values in [x, y, z, a]:
+    for values, remove in zip([b, x], [2, 2]):
         print()
-        test_print(values, 5, 10, 2)
+        test_print(values, [5, 10, 2], remove)
