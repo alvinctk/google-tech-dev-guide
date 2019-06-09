@@ -21,6 +21,10 @@ FIFO Queue
 
 ## Algorithms
 
+Mergesort
+- [mergesort](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/mergesort/mergesort.py)
+
+
 Quicksort
 - [pivot using midpoint value](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/quicksort/quicksort.py)
 
