@@ -54,6 +54,30 @@ class Binary_Tree:
         else:
             return True
 
+    def find_min(self):
+        """
+        Returns the minimum value if tree is not empty. Otherwise, returns
+        None.
+        """
+        if self.root is None:
+            return None
+        current = self.root
+        while (current.left is not None):
+            current = current.left
+        return current.value
+
+    def find_max(self):
+        """
+        Returns the maximum value if tree is not empty. Otherwise, returns
+        None.
+        """
+        if self.root is None:
+            return None
+        current = self.root
+        while (current.right is not None):
+            current = current.right
+        return current.value
+
     def insert(self, value):
         """
         Insert value into Binary Tree by creating a binary node
@@ -125,15 +149,19 @@ def test_print(values, *args):
     bt.print_tree(ascending=False)
 
     print("\nroot =", bt.root)
-    print("root.left =", bt.root.left)
-    print("root.right =", bt.root.right)
-
+    if bt.root is not None:
+        print("root.left =", bt.root.left)
+        print("root.right =", bt.root.right)
+    print("tree's min value =", bt.find_min())
+    print("tree's max value =", bt.find_max())
     for c in args:
         print("does {} contains in tree = {}".format(c, bt.contains(c)))
 
 if __name__ == "__main__":
     x = [2, 4, 1, 8, 8, 10, 9]
     y = [12, 6, 14, 3]
-    for values in [x, y]:
+    z = [3]
+    a = []
+    for values in [x, y, z, a]:
         print()
         test_print(values, 5, 10, 2)
