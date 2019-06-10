@@ -9,8 +9,8 @@ Interview study to reinforces basic software engineering skills.
 - [Geeks for geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
 
 ## Textbook Resources
-[Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
-[Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
+- [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
+- [Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
 
 ## Data structures
 Tree
@@ -25,7 +25,6 @@ FIFO Queue
 - [Linked listed implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_ll.py)
 
 - [List (or array) implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_array.py)
-
 
 ## Algorithms
 
@@ -56,5 +55,3 @@ Quicksort
 
 ## Stackoverflow
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
-
-
