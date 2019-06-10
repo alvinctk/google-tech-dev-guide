@@ -1,10 +1,10 @@
 
 Let A be the node that must be rebalanced
 There are four unique cases of A:
-    - Case 1: An insertion onto left subtree of the left child of A
-    - Case 2: An insertion onto right subtree of the left child of A
-    - Case 3: An insertion onto left subtree of the right child of A
-    - Case 4: An insertion onto right subtree of the right child of A
+- Case 1: An insertion onto left subtree of the left child of A
+- Case 2: An insertion onto right subtree of the left child of A
+- Case 3: An insertion onto left subtree of the right child of A
+- Case 4: An insertion onto right subtree of the right child of A
 
 Case 1 and case 4 are classified as outside case. In order to fix the outside
 case, a single rotation is required.
