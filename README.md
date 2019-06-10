@@ -15,7 +15,9 @@ Interview study to reinforces basic software engineering skills.
 ## Data structures
 Tree
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
-- [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
+- AVL Tree 
+    - [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
+    - [AVL Tree code](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.py)
 
 FILO Stack
 - [Linked listed implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_ll.py)
