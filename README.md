@@ -8,7 +8,7 @@ Interview study to reinforces basic software engineering skills.
 
 ## Data structures
 
-Binary Tree
+Tree
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
 
 FILO Stack
