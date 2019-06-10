@@ -3,11 +3,16 @@
 ## Introduction 
 Interview study to reinforces basic software engineering skills.
 
-## Resources
-[Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
+## Interview Resources
+- [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
+- [Geeks for geeks - Company prepartion](https://www.geeksforgeeks.org/company-preparation/)
+- [Geeks for geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
+
+## Textbook Resources
+[Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
+[Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
 
 ## Data structures
-
 Tree
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
 
