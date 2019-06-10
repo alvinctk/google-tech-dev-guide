@@ -50,5 +50,6 @@ Quicksort
 [String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
 
 ## Stackoverflow
-[Python: list vs tutple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
+[Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
+
 
