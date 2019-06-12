@@ -67,6 +67,10 @@ Quicksort
 - [Three number sums](./70_question/three_number_sum/three_number_sum_problem.md) 
     - [Solution](./70_question/three_number_sum/three_number_sum.py)
 
+LinkedList
+- [Construction of double linked list](./70_question/linked_list_problem/double_linked_list.py)
+
+- [Remove kth Node from End](./70_question/linked_list_problems/delete_k_th_end_elements_from_linked_list.py)
 
 ## Hackerrank
 
