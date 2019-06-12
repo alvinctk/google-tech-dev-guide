@@ -11,7 +11,12 @@ Interview study to reinforces basic software engineering skills.
 ## Textbook Resources
 - [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 - [Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
-
+- Introduction to Algorithms, Third Edition by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein.
+- The Algorithm Design Manual by Second Edition by Steven S. Skiena.
+- Programming Pearls, Second Edition by Jon Bentley
+- Data Structures and Algorithm Analysis in Java, Third Edition by Mark Allen Weiss.
+- Data Structures and Algorithms with Python, Springer Press, by Kent D. Lee and Steve Hubbard
+- Python Algorithms - Mastering Basic Algorithms in the Python Language, Second Edition by Magnus Lie Hetland
 ## Data structures
 Tree
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
