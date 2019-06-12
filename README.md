@@ -61,8 +61,8 @@ Quicksort
     - [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py)
 
 ## 70 Questions
-- Two number sums 
-    - [Solution](https://github.com/alvinctk/google-tech-dev-guide/blob/master/70_question/two_number_sum/two_number_sum.py)
+- [Two number sums](./70_question/two_number_sum/two_number_sum_problem.md) 
+    - [Solution](./70_question/two_number_sum/two_number_sum.py)
 
 ## Hackerrank
 
