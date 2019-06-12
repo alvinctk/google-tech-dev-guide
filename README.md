@@ -64,6 +64,10 @@ Quicksort
 - [Two number sums](./70_question/two_number_sum/two_number_sum_problem.md) 
     - [Solution](./70_question/two_number_sum/two_number_sum.py)
 
+- [Three number sums](./70_question/three_number_sum/three_number_sum_problem.md) 
+    - [Solution](./70_question/three_number_sum/three_number_sum.py)
+
+
 ## Hackerrank
 
 [String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
