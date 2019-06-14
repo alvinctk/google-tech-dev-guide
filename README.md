@@ -61,8 +61,7 @@ Quicksort
 ### Sliding window
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| [Maximum sliding window](https://leetcode.com/problems/sliding-window-maximum/)
- | Hard |  [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py) |  || | 
+| [Maximum sliding window](https://leetcode.com/problems/sliding-window-maximum/) | Hard |  [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py) |  || | 
 
 
 ## 70 Questions
