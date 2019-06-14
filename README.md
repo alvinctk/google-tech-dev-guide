@@ -63,17 +63,17 @@ Quicksort
 ## 70 Questions
 
 ### Array
-| Problem      | Difficulty     | Solution      | Time Complexity | Space Complexity
-| :---:        |     :---:      |  :---:        |   :---:         |  :---:
-| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) |  | | 
-| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py) | ||
+| Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
+| :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
+| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) |  || | 
+| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py) ||||
 
 
 ### LinkedList
-| Problem      | Difficulty     | Solution      | Time Complexity | Space Complexity
-| :---:        |     :---:      |  :---:        |   :---:         |  :---:
-| Construction of a double linked list| Easy |[.py](./70_question/linked_list/double_linked_list.py) |  | | 
-| Remove Kth Node from End| Medium| [.py](./70_question/linked_list/delete_k_th_end_elements_from_linked_list.py)| ||
+| Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
+| :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
+| Construction of a double linked list| Easy |[.py](./70_question/linked_list/double_linked_list.py) |||| 
+| Remove Kth Node from End| Medium| [.py](./70_question/linked_list/delete_k_th_end_elements_from_linked_list.py)| |||
 
 
 ## Hackerrank
