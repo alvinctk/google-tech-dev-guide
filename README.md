@@ -57,8 +57,13 @@ Quicksort
 6. [Hangman game](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/6_hangman/hangman.py)
 
 ## LeetCode
-- [Maximum sliding window](https://leetcode.com/problems/sliding-window-maximum/)
-    - [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py)
+
+### Sliding window
+| Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
+| :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
+| [Maximum sliding window](https://leetcode.com/problems/sliding-window-maximum/)
+ | Hard |  [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py) |  || | 
+
 
 ## 70 Questions
 
