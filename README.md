@@ -61,16 +61,20 @@ Quicksort
     - [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py)
 
 ## 70 Questions
-- [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) 
-    - [Solution](./70_question/array/two_number_sum/two_number_sum.py)
 
-- [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) 
-    - [Solution](./70_question/array/three_number_sum/three_number_sum.py)
+### Array
+| Problem | Difficulty | Solution | Time Complexity | Space Complexity
+| :---         |     :---:      |          ---: |
+| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) |  | | 
+| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py) | ||
 
-LinkedList
-- [Construction of double linked list](./70_question/linked_list_problems/double_linked_list.py)
 
-- [Remove kth Node from End](./70_question/linked_list_problems/delete_k_th_end_elements_from_linked_list.py)
+### LinkedList
+| Problem | Difficulty | Solution | Time Complexity | Space Complexity
+| :---         |     :---:      |          ---: |
+| Construction of a double linked list| Easy |[.py](./70_question/linked_list/double_linked_list.py) |  | | 
+| Remove Kth Node from End| Medium| [.py](./70_question/linked_list/delete_k_th_end_elements_from_linked_list.py)| ||
+
 
 ## Hackerrank
 
