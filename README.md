@@ -82,20 +82,21 @@ Quicksort
 ### String
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Caesar Cipher| Easy |[.py](./70_question/string/caesar_cipher_encryptor/caesar_cipher.py) |[.py](./70_question/string/caesar_cipher_encryptor/test.py)|O(n)|O(1)| 
-| Largest palindrome substring| Medium |[.py](./70_question/string/palindrome/largest_palindrome_substring.py) |[.py](./70_question/string/palindrome/largest_palindrome_substring_test.py)|O(n^2)|O(1)| 
+| Caesar Cipher| Easy |[.py](./70_question/string/caesar_cipher.py) |[.py](./70_question/string/caesar_cipher_test.py)|O(n)|O(1)| 
+| Largest palindrome substring| Medium |[.py](./70_question/string/largest_palindrome_substring.py) |[.py](./70_question/string/largest_palindrome_substring_test.py)|O(n^2)|O(1)| 
 
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Largest three numbers| Easy |[.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py) |[.py](/70_question/searching/largest_three_numbers/test.py)|O(n)|O(1)| 
-| Binary search value| Easy | [.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py)| |O(log n)|O(1)|
+| Largest three numbers| Easy |[.py](./70_question/searching/largest_three_numbers.py) |[.py](/70_question/searching/largest_three_numbers_test.py)|O(n)|O(1)| 
+| Binary search value| Easy | [.py](./70_question/searching/binary_search.py)| [.py](.70_question/searching/binary_search_test.py) |O(log n)|O(1)|
 
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Bubble Sort| Easy |[.py](./70_question/sorting/bubble_sort.py) |[.py](/70_question/sorting/test_bubble_sort.py)|O(n^2)|O(1)| 
-
+| Bubble Sort| Easy |[.py](./70_question/sorting/bubble_sort.py) |[.py](/70_question/sorting/bubble_sort_test.py)|O(n^2)|O(1)| 
+| Insertion Sort| Easy |[.py](./70_question/sorting/insertion_sort.py) |[.py](/70_question/sorting/insertion_sort_test.py)|O(n^2)|O(1)| 
+| Selection Sort| Easy |[.py](./70_question/sorting/selection_sort.py) |[.py](/70_question/sorting/selection_sort_test.py)|O(n^2)|O(1)| 
 
 ## Hackerrank
 
