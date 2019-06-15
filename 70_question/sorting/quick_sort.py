@@ -1,3 +1,6 @@
+# Best: O(n log n) time | O(log n) space
+# Best: O(n log n) time | O(log n) space
+# Worst: O(n^2) time | O(log n) space
 def quick_sort(array):
     quick_sort_pivot_first(array, 0, len(array) - 1)
     return array
