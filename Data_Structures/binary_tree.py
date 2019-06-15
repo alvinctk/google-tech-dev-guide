@@ -133,7 +133,7 @@ class Binary_Tree:
             # has been copied to the node to be removed.
 
             # Since the smallest value node, it has either 0 or 1 children.
-            self.remove_value(node.value, node.right)
+            node.right = self.remove_value(node.value, node.right)
         else:
             # One or zero children
             if node.left is not None:
@@ -167,7 +167,7 @@ class Binary_Tree:
             else:
                 self.insert_value(value, node.right)
 
-    def print_tree(self, ascending=True, ):
+    def print_tree(self, ascending=True):
         """
         To print tree value.
         """
