@@ -1,7 +1,6 @@
 import bubble_sort as program
 import unittest
 
-
 class TestProgram(unittest.TestCase):
     def test_case_19(self):
         self.assertEqual(program.bubblesort([2, 1, 8, 33, 4, -1, 5, 7]), [-1, 1, 2, 4, 5, 7, 8, 33])
