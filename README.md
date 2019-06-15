@@ -82,8 +82,13 @@ Quicksort
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Largest three numbers| Easy |[.py](./70_question/searching/binary_search_array/binary_search.py) |[.py](/70_question/searching/binary_search_array/test_binary_search.py)|O(log n)|O(1)| 
-| Binary search value| Easy | [.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py)| |O(n)|O(1)|
+| Largest three numbers| Easy |[.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py) |[.py](/70_question/searching/largest_three_numbers/test.py)|O(n)|O(1)| 
+| Binary search value| Easy | [.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py)| |O(log n)|O(1)|
+
+### Searching
+| Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
+| :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
+| Bubble Sort| Easy |[.py](./70_question/sorting/bubble_sort.py) |[.py](/70_question/sorting/test_bubble_sort.py)|O(n^2)|O(1)| 
 
 
 ## Hackerrank
