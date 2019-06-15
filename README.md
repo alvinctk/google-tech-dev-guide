@@ -88,8 +88,8 @@ Quicksort
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Largest three numbers| Easy |[.py](./70_question/searching/largest_three_numbers.py) |[.py](/70_question/searching/largest_three_numbers_test.py)|O(n)|O(1)| 
-| Binary search value| Easy | [.py](./70_question/searching/binary_search.py)| [.py](.70_question/searching/binary_search_test.py) |O(log n)|O(1)|
+| Largest three numbers| Easy |[.py](./70_question/searching/largest_three_numbers.py) |[.py](./70_question/searching/largest_three_numbers_test.py)|O(n)|O(1)| 
+| Binary search value| Easy | [.py](./70_question/searching/binary_search.py)| [.py](./70_question/searching/binary_search_test.py) |O(log n)|O(1)|
 
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
