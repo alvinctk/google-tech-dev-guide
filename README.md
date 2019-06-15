@@ -69,15 +69,21 @@ Quicksort
 ### Array
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) |  || | 
-| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py) ||||
+| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) | |O(n)|O(n)| 
+| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py)||O(n^2)|O(n)|
 
 
 ### LinkedList
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
 | Construction of a double linked list| Easy |[.py](./70_question/linked_list/double_linked_list.py) |||| 
-| Remove Kth Node from End| Medium| [.py](./70_question/linked_list/delete_k_th_end_elements_from_linked_list.py)| |||
+| Remove Kth Node from End| Medium| [.py](./70_question/linked_list/delete_k_th_end_elements_from_linked_list.py)| |O(n)|O(1)|
+
+### Searching
+| Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
+| :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
+| Largest three numbers| Easy |[.py](./70_question/searching/binary_search_array/binary_search.py) |[.py](/70_question/searching/binary_search_array/test_binary_search.py)|O(log n)|O(1)| 
+| Binary search value| Easy | [.py](./70_question/searching/largest_three_numbers/largest_three_numbers.py)| |O(n)|O(1)|
 
 
 ## Hackerrank
