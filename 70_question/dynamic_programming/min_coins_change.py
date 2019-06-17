@@ -1,3 +1,5 @@
+# O(nd) time | O(n) space
+# Where d is the number of denoms
 def minNumberOfCoinsForChange(n, denoms):
     """
     nc = number_coins

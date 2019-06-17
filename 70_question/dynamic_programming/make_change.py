@@ -1,3 +1,5 @@
+# O(nd) time | O(n) space
+# where d is the number of denominations
 def numberOfWaysToMakeChange(n, denoms):
     """
     ways[amount] += ways[amount - denomination]
