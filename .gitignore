@@ -9,6 +9,9 @@ __pycache__/
 # tags files 
 tags
 
+# useless folder
+useless/
+
 # Distribution / packaging
 .Python
 build/
