@@ -1,6 +1,9 @@
+# Best O(N) | Avg O(N) | Worse O(N^2) time
+# O(1) space since sort in place.
 def quickselect(array, k):
     """
     Select the kth smallest element in the array
+    Using quick select algorithm
     """
 
     n = len(array)
