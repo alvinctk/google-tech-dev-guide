@@ -1,20 +1,16 @@
-from collections import deque
-
 def quickselect(array, k):
     """
     Select the kth smallest element in the array
     """
 
     n = len(array)
+    if n == 1:
+        print_result(array, k)
+        return array[k-1]
 
-    q = deque()
-    q.appendleft((0, len(array)-1))
-    while q:
+    start, end = 0, n - 1
 
-        start, end = q.popleft()
-        # Base case
-        if n <= 1 or start > end:
-            continue
+    while start <= end:
 
         # Select the first/start element as pivot
         # Assign left and right pointer
@@ -38,20 +34,23 @@ def quickselect(array, k):
         swap(array, right, pivot)
 
         if right + 1 == k:
-            print("The {}th smallest element in {} is {}".format(k, array, array[k-1]))
+            print_result(array, k)
             return array[right]
 
         # 5. Select the half that k belongs to.
         if k - 1 < right:
-            q.append((start, right - 1))
+            end = right - 1
         else:
-            q.append((right + 1, end))
+            start = right + 1
 
-    print("The {}th smallest element in {} is {}".format(k, array, array[k-1]))
+    print_result(array, k)
     return array[k-1]
 
 def swap(array, left, right):
     array[left], array[right] = array[right], array[left]
+
+def print_result(array, k):
+    print("The {}th smallest element in {} is {}".format(k, array, array[k-1]))
 
 
 if __name__ == "__main__":
