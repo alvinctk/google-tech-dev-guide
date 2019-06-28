@@ -3,9 +3,9 @@
 
 ### Longest Common Subsequence
 
-[Best explanation LCS](https://www.ics.uci.edu/~eppstein/161/960229.html) </br>
-    - Recursive -> sub problems -> Memorization -> Dynamic Programming 
-    - Using a finite state machine to test whether LCS string is a subsequence of a given string.
+[Best explanation LCS](https://www.ics.uci.edu/~eppstein/161/960229.html)
+- Recursive -> sub problems -> Memorization -> Dynamic Programming 
+- Using a finite state machine to test whether LCS string is a subsequence of a given string.
 
 Other references:
 - [Notes 1](http://www.cs.mun.ca/~kol/courses/6901-f14/lec12.pdf)
