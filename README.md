@@ -9,6 +9,7 @@ Interview study to reinforces basic software engineering skills.
 - [Geeks for geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
 
 ## Textbook Resources
+- [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 - [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 - [Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
 - Introduction to Algorithms, Third Edition by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein.
@@ -18,23 +19,33 @@ Interview study to reinforces basic software engineering skills.
 - Data Structures and Algorithms with Python, Springer Press, by Kent D. Lee and Steve Hubbard
 - Python Algorithms - Mastering Basic Algorithms in the Python Language, Second Edition by Magnus Lie Hetland
 ## Data structures
-Tree
+
+### Tree
+
+#### Binary Tree
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
-- AVL Tree 
+
+#### AVL Tree 
     - [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
     - [AVL Tree code](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.py)
 
-FILO Stack
+### Stack
+
+#### FILO Stack
 - [Linked listed implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_ll.py)
 
 - [List (or array) implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_array.py)
 
-FIFO Queue
+### Queue 
+
+#### FIFO Queue
 - [Linked listed implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_ll.py)
 
 - [List (or array) implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_array.py)
 
-**Binary heap**
+### Heap
+
+#### Binary heap
 
 Given an array of n length. 
 - Last index of last parent = (n-2)//2
