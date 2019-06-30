@@ -148,3 +148,13 @@ Given a parent index
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
 
 [Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
+
+[Python: max and min for integers](https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints)
+
+[Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
+
+[Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
+
+[Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
+
+[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
