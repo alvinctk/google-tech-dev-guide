@@ -1,9 +1,12 @@
 """
 Given k sorted array, merge them into a single sorted array
 """
-
-
-
+# Best/Avg/Worse O(nk log (nk)) time and O(nk) space
+#
+# Time complexity: O(nk log (nk) + nk) bound by O(nk log (nk))
+# Space complexity: O(nk + 1) bound by O(nk)
+# O(nk log (nk)) time and O(1) space for sorting the final merged array
+# O(nk) time and O(nk) space for creating new merged array
 def merge_k_array(k_array):
     array = []
     length = [len(i_array) for i_array in k_array]
@@ -18,7 +21,9 @@ def merge_k_array(k_array):
     heapsort(array)
     print("The {} has sorted and merged into {}".format(k_array, array))
 
+# O(n log n) time and O(1) space
 def heapsort(array):
+
     n = len(array)
     for i in range(n-1):
 
