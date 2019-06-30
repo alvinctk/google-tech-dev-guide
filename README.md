@@ -23,25 +23,25 @@ Interview study to reinforces basic software engineering skills.
 ### Tree
 
 #### Binary Tree
-- [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
+- [Binary Tree](./Data_Structures/binary_tree.py)
 
 #### AVL Tree 
-- [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
-- [AVL Tree code](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.py)
+- [AVL Tree notes](./Data_Structures/avl_tree.md)
+- [AVL Tree code](./Data_Structures/avl_tree.py)
 
 ### Stack
 
 #### FILO Stack
-- [Linked listed implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_ll.py)
+- [Linked listed implementation of stack](./Data_Structures/stack_ll.py)
 
-- [List (or array) implementation of stack](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/stack_array.py)
+- [List (or array) implementation of stack](./Data_Structures/stack_array.py)
 
 ### Queue 
 
 #### FIFO Queue
-- [Linked listed implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_ll.py)
+- [Linked listed implementation of queue](./Data_Structures/queue_ll.py)
 
-- [List (or array) implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_array.py)
+- [List (or array) implementation of queue](./Data_Structures/queue_array.py)
 
 ### Heap
 
@@ -57,11 +57,11 @@ Given a parent index
 ## Algorithms
 
 ### Mergesort
-- [mergesort](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/mergesort/mergesort.py)
+- [mergesort](./Sorting/mergesort/mergesort.py)
 
 
 ### Quicksort
-- [pivot using midpoint value](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/quicksort/quicksort.py)
+- [pivot using midpoint value](./Sorting/quicksort/quicksort.py)
 
 - [pivot using first value](./70_question/sorting/quick_sort.py)
 
@@ -86,24 +86,24 @@ Given a parent index
 	```
 
 ## **Google Tech Dev Guide**
-1. [Find the find longest word in dictionary that is a subsequence of a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
+1. [Find the find longest word in dictionary that is a subsequence of a given string](./Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
 
-2. [Find the max span of a given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/2_max_span/maxSpan.py)
+2. [Find the max span of a given list](./Foundations_of_Programming/2_max_span/maxSpan.py)
 
-3. [Remove all occurance of a pattern in a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/3_without_string/withoutString.py)
+3. [Remove all occurance of a pattern in a given string](./Foundations_of_Programming/3_without_string/withoutString.py)
 
-4. [Sum numbers in a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
+4. [Sum numbers in a given string](./Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
 
-5. [Find a balance sum in an given list](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/5_can_balance/canBalance.py)
+5. [Find a balance sum in an given list](./Foundations_of_Programming/5_can_balance/canBalance.py)
 
-6. [Hangman game](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/6_hangman/hangman.py)
+6. [Hangman game](./Foundations_of_Programming/6_hangman/hangman.py)
 
 ## LeetCode
 
 ### Sliding window
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| [Maximum sliding window](https://leetcode.com/problems/sliding-window-maximum/) | Hard |  [Using deqeue](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/max_sliding_window.py) |  || | 
+| [Maximum sliding window](./leetcode/max_sliding_window.py) |  || | 
 
 
 ## 70 Questions
@@ -136,13 +136,13 @@ Given a parent index
 ### Searching
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| Bubble Sort| Easy |[.py](./70_question/sorting/bubble_sort.py) |[.py](/70_question/sorting/bubble_sort_test.py)|O(n^2)|O(1)| 
-| Insertion Sort| Easy |[.py](./70_question/sorting/insertion_sort.py) |[.py](/70_question/sorting/insertion_sort_test.py)|O(n^2)|O(1)| 
-| Selection Sort| Easy |[.py](./70_question/sorting/selection_sort.py) |[.py](/70_question/sorting/selection_sort_test.py)|O(n^2)|O(1)| 
+| Bubble Sort| Easy |[.py](./70_question/sorting/bubble_sort.py) |[.py](./70_question/sorting/bubble_sort_test.py)|O(n^2)|O(1)| 
+| Insertion Sort| Easy |[.py](./70_question/sorting/insertion_sort.py) |[.py](./70_question/sorting/insertion_sort_test.py)|O(n^2)|O(1)| 
+| Selection Sort| Easy |[.py](./70_question/sorting/selection_sort.py) |[.py](./70_question/sorting/selection_sort_test.py)|O(n^2)|O(1)| 
 
 ## Hackerrank
 
-[String validators](https://github.com/alvinctk/google-tech-dev-guide/tree/master/hackerrank/string_validators.py)
+[String validators](./hackerrank/string_validators.py)
 
 ## Stackoverflow
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
