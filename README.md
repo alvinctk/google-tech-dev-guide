@@ -34,7 +34,8 @@ FIFO Queue
 
 - [List (or array) implementation of queue](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/queue_array.py)
 
-Binary heap
+**Binary heap**
+
 Given an array of n length. 
 - Last index of last parent = (n-2)//2
 
@@ -42,40 +43,36 @@ Given a parent index
 - index of left child = 2 * i + 1 
 - index of right child = 2 * i + 2 
 
-
-
-
 ## Algorithms
 
-Mergesort
+### Mergesort
 - [mergesort](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/mergesort/mergesort.py)
 
 
-Quicksort
+### Quicksort
 - [pivot using midpoint value](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Sorting/quicksort/quicksort.py)
-- 
-```
 
-```
+- [pivot using first value](./70_question/sorting/quick_sort.py)
 
 
+### Heapsort 
+- [Heapsort using binary heap](./70_question/sorting/heap_sort.py)
 
-Heapsort 
-To sort elements in ascending order:
-```
-start i = 0
-while i less than n-1
-    build max heap from i=0 to n-1-i
-    swap 0 and n-1-i element in order to put the max element at n-1-i index
-```
+- To sort elements in ascending order:
+	```
+	start i = 0
+	while i less than n-1
+	    build max heap from i=0 to n-1-i
+	    swap 0 and n-1-i element in order to put the max element at n-1-i index
+	```
 
-To sort elements in descending order:
-```
-start i = 0
-while i less than n-1
-    build min heap from i=0 to n-1-i
-    swap 0 and n-1-i element in order to put the max element at n-1-i index
-```
+- To sort elements in descending order:
+	```
+	start i = 0
+	while i less than n-1
+	    build min heap from i=0 to n-1-i
+	    swap 0 and n-1-i element in order to put the max element at n-1-i index
+	```
 
 ## **Google Tech Dev Guide**
 1. [Find the find longest word in dictionary that is a subsequence of a given string](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
