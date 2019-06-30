@@ -3,10 +3,33 @@
 ## Introduction 
 Interview study to reinforces basic software engineering skills.
 
+## Study Plan
+- [Average googler four weeks study plan](https://www.linkedin.com/pulse/average-googler-four-weeks-study-plan-milad-naseri/?trk=v-feed)
+
+## Practice Your Code
+- [Project Euler](https://projecteuler.net)
+- [Topcoder](https://www.topcoder.com)
+- [HackerRank](https://www.hackerrank.com)
+- [LeetCode](https://leetcode.com)
+- [Practice problems - Google Focus by Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?company%5B%5D=Google&page=1&sortBy=accuracy)
+- [Practice on a google doc](https://www.quora.com/What-are-some-tips-for-practicing-coding-on-Google-docs-for-a-phone-screen)
+
+## General Interview Preparation 
+- [Puzzles](https://www.geeksforgeeks.org/category/puzzles/)
+- [Geeks for Geeks](https://www.geeksforgeeks.org)
+
+## Style Guide
+- [Google Style Guide](https://google.github.io/styleguide/)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ## Interview Resources
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
-- [Geeks for geeks - Company preparation](https://www.geeksforgeeks.org/company-preparation/)
-- [Geeks for geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
+- [Geeks for Geeks - Company preparation](https://www.geeksforgeeks.org/company-preparation/)
+- [Geeks for Geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
+- [50 questions by Byte-Byte](https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pdf)
+- [500 questions by techiedelight](https://www.techiedelight.com) or [via quora](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions?share=1&utm_medium=email&utm_source=hackernewsletter&utm_term=code)
+- [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
+- [Big Oh Cheatsheet](http://bigocheatsheet.com)
 
 ## Textbook Resources
 - [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
