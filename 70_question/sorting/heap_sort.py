@@ -16,6 +16,25 @@ def heapSort(array):
 
 def max_heapify(array, end):
     """
+    O(log n) to build max heap
+    """
+    parent = (end - 1)//2
+
+    while parent >= 0:
+
+        child_left = 2 * parent + 1
+        child_right = 2 * parent + 2
+
+        if child_left <= end and array[child_left] > array[parent]:
+            swap(array, parent, child_left)
+
+        if child_right <= end and array[child_right] > array[parent]:
+            swap(array, parent, child_right)
+
+        parent -= 1
+
+def max_heapify_x(array, end):
+    """
     O(N) to build max heap
     """
     while end > 0:
