@@ -71,7 +71,7 @@ Given a parent index
 	start i = 0
 	while i less than n-1
 	    build min heap from i=0 to n-1-i
-	    swap 0 and n-1-i element in order to put the max element at n-1-i index
+	    swap 0 and n-1-i element in order to put the min element at n-1-i index
 	```
 
 ## **Google Tech Dev Guide**
