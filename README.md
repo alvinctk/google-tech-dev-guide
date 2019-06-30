@@ -26,8 +26,8 @@ Interview study to reinforces basic software engineering skills.
 - [Binary Tree](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/binary_tree.py)
 
 #### AVL Tree 
-    - [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
-    - [AVL Tree code](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.py)
+- [AVL Tree notes](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.md)
+- [AVL Tree code](https://github.com/alvinctk/google-tech-dev-guide/tree/master/Data_Structures/avl_tree.py)
 
 ### Stack
 
