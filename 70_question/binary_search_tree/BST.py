@@ -81,9 +81,9 @@ class BST:
                 else:
                     current = node.right
                     while current:
-                        print("current")
-                        print(current.value, current.left.value, node.value)
-                        self.display_aux(current)
+                        # print("current")
+                        # print(current.value, current.left.value, node.value)
+                        # self.display_aux(current)
                         if current.left and current.left.value == node.value:
                             current.left = current.left.right
                             break
@@ -91,8 +91,8 @@ class BST:
                     self.display()
                     break
             else:
-                print("one or zero children removing ", node.value)
-                self.display_aux(node)
+                #print("before one or zero children removing ", node.value)
+                #self.display_aux(node)
                 # One or zero children
                 if node.left is not None:
                     if direction == "root":
