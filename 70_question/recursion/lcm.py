@@ -62,7 +62,7 @@ orgCharts['X'].addDirectReports([
 
 def getLowestCommonManager(topManager, reportOne, reportTwo, debug=None):
     getLowestCommonManager_1(topManager, reportOne, reportTwo, debug=True)
-    return getLowestCommonManager_2(topManager, reportOne, reportTwo, debug=True)
+    return getLowestCommonManager_2(topManager, reportOne, reportTwo, debug=False)
 
 
 def getLowestCommonManager_2(topManager, reportOne, reportTwo, debug=None):
@@ -71,42 +71,40 @@ def getLowestCommonManager_2(topManager, reportOne, reportTwo, debug=None):
         print_result(topManager.name, reportOne.name, reportTwo.name, topManager)
         lcm = topManager
     else:
-        lcm, fx, fy = get_org(topManager, reportOne, reportTwo,None, False, False, debug)
+        lcm, fx, fy = get_org(topManager, reportOne, reportTwo, debug)
         if debug: print("lcm2", lcm.name if lcm else None, fx, fy)
     print_result(topManager.name, reportOne.name, reportTwo.name, lcm.name if lcm else None)
     return lcm
 
-def get_org(manager, x, y, lcm, found_x, found_y, debug=None):
-    found_x = found_x | (x in manager.directReports)
-    found_y = found_y | (y in manager.directReports)
-    if found_x and found_y:
-        return lcm, found_x, found_y
+def get_org(manager, x, y, debug=False):
 
-    if x in manager.directReports:
-        print("found x", x.name, found_x, found_y)
+    found_x = (x is manager)
+    found_y = y is manager
+    if debug:
+        if x is manager: print("found x", x.name, found_x, found_y)
+        if y is manager: print("found y", y.name, found_x, found_y)
 
-    if y in manager.directReports:
-        print("found y", y.name, found_x, found_y)
-
+    lcm = None
     for employee in manager.directReports:
-        print("visit ", manager.name, employee.name, found_x, found_y)
-        lcm, temp_found_x, temp_found_y = get_org(employee, x, y, lcm, found_x, found_y)
-        print ("manager", manager.name, "emp", employee.name, "lcm", lcm.name if lcm else None, "f", temp_found_x, temp_found_y)
+
+        if debug: print("visit ", manager.name, employee.name, found_x, found_y)
+        lcm, temp_found_x, temp_found_y = get_org(employee, x, y)
+        if debug: print ("manager", manager.name, "emp", employee.name, "lcm", lcm.name if lcm else None, "f", temp_found_x, temp_found_y)
         if lcm:
-            print("back track up found", found_x, found_y, manager.name, employee.name)
+            if debug: print("back track up found", found_x, found_y, manager.name, employee.name)
             return lcm, found_x, found_y
 
         found_x |= temp_found_x
         found_y |= temp_found_y
 
         if not lcm and found_x and found_y:
-            print("found 3", found_x, found_y, manager.name, employee.name)
-            lcm = employee
+            if debug: print("found 3", found_x, found_y, manager.name, employee.name)
+            lcm = manager
             return lcm, found_x, found_y
         else:
-            print("not found", found_x, found_y, manager.name, employee.name)
+            if debug: print("not found", found_x, found_y, manager.name, employee.name)
 
-    print("return outside",manager.name if manager else None, x.name, y.name, lcm, found_x, found_y)
+    if debug: print("return outside",manager.name if manager else None, x.name, y.name, lcm, found_x, found_y)
     return lcm, found_x, found_y
 
 
