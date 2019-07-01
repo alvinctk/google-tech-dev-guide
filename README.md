@@ -176,6 +176,8 @@ Given a parent index
 
 [Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
 
+[Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
+
 [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
 
 [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
