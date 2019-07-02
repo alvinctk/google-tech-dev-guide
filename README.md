@@ -167,7 +167,10 @@ Given a parent index
 
 [String validators](./hackerrank/string_validators.py)
 
-## Stackoverflow
+## Stackoverflow and other articles
+
+[Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
+
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
 
 [Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
@@ -178,8 +181,11 @@ Given a parent index
 
 [Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
 
+[Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
+
 [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
 
 [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
 
 [Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
+
