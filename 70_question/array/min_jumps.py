@@ -7,17 +7,9 @@ def minNumberOfJumps(array, debug=False):
     min_jumps = [0] * n
     i = n-2
     while i >= 0:
-        if debug: print("i={}, i+array[i]={}, n-1={}".format(i, i+array[i], n-1))
-
         if array[i] != 0:
             furthest_can_jump = min(i + array[i], n - 1)
-
-            if debug: print("min(i+array[i]={}, n-1={}) = {}".format(i+array[i], n-1, furthest_can_jump))
-
             previous_min_jump = min(min_jumps[i+1:furthest_can_jump+1])
-
-            if debug: print("i+1={}, furthest_can_jump+1={}, previous_min_jump={}".format(i+1, furthest_can_jump+1, previous_min_jump))
-
             min_jumps[i] = 1 + previous_min_jump
         else:
             min_jumps[i] = float("inf")
@@ -67,4 +59,4 @@ if __name__ == "__main__":
 
     min_j([2, 3, 1, 1, 4])
     min_j([3, 0, 1, 2, 4])
-min_j([3, 2, 1, 0, 4])
+    min_j([3, 2, 1, 0, 4])
