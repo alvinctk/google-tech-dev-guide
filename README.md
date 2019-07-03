@@ -134,8 +134,8 @@ Given a parent index
 ### Array
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
-| [Two number sums](./70_question/array/two_number_sum/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) | |O(n)|O(n)| 
-| [Three number sums](./70_question/array/three_number_sum/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py)||O(n^2)|O(n)|
+| [Two number sums](./70_question/array/two_number_sum_problem.md) | Easy |[.py](./70_question/array/two_number_sum/two_number_sum.py) | |O(n)|O(n)| 
+| [Three number sums](./70_question/array/three_number_sum_problem.md) | Medium| [.py](./70_question/array/three_number_sum/three_number_sum.py)||O(n^2)|O(n)|
 
 
 ### LinkedList
