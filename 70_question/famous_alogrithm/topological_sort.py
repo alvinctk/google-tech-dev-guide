@@ -13,8 +13,8 @@ class Graph:
         for u, v in dependencies:
             self.graph[u].append(v)
 
-
-
+    # O(V + E) time due to adjacency list used, and where V are vertices and E are edges
+    # O(V + E) space due to recursion depth in stack frame.
     def topological_sort_util(self, v, visited, stack, cyclic_stack):
         """
         Return True if the graph is cyclic. Otherwise, returns False if graph is not cyclic.
@@ -48,6 +48,8 @@ class Graph:
         # No cyclic till here
         return False
 
+    # O(V + E) time due to adjacency list used, and where V are vertices and E are edges
+    # O(V + E) space due to recursion depth in stack frame.
     def topological_sort(self, dependencies):
         """
         Main function to retrieve topological sorted order.
