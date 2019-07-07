@@ -1,5 +1,7 @@
 # Dynamic Programming 
-
+### Disk Stacking
+[Geeks for geeks: Box stacking problem](https://www.geeksforgeeks.org/box-stacking-problem-dp-22/)
+- The following is the solution based on DP solution of [LIS problem]().
 
 ### Longest Common Subsequence
 
@@ -13,3 +15,5 @@ Other references:
 - [Wiki](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
     - Read the suggestion on how to reduce the space complexity of the dynamic programming approach
 
+
+https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3
