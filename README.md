@@ -70,12 +70,13 @@ Interview study to reinforces basic software engineering skills.
 
 #### Binary heap
 
-Given an array of n length. 
-- Last index of last parent = (n-2)//2
+Given the last index in the array
+- Last index of last parent = (last-1)//2
 
 Given a parent index
 - index of left child = 2 * i + 1 
-- index of right child = 2 * i + 2 
+- index of right child = 2 * i + 2
+
 
 ## Algorithms
 
