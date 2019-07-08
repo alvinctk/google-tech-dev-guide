@@ -22,6 +22,9 @@ Interview study to reinforces basic software engineering skills.
 - [Google Style Guide](https://google.github.io/styleguide/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
+## Tutorials
+- [Hacker Earth Practice](https://www.hackerearth.com/practice/)
+
 ## Interview Resources
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 - [Geeks for Geeks - Company preparation](https://www.geeksforgeeks.org/company-preparation/)
