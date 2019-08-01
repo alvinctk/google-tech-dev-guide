@@ -34,6 +34,11 @@ Interview study to reinforces basic software engineering skills.
 - [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
 - [Big Oh Cheatsheet](http://bigocheatsheet.com)
 
+## Lecture Videos 
+- [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - To Do: watch the dynamic programming videos 
+
+
 ## Textbook Resources
 - [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 - [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
