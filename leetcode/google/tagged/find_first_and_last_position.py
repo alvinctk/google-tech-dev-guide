@@ -2,6 +2,13 @@ from typing import List
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         """
+        Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+        Time complexity: O(log n) since binary search algorithm is used.
+        Binary search algorithm cuts the search space roughly in half on each iteration.
+
+        Space complexity: O(1) since all work are done in place.
+
         Runtime beats 92.59% of python3 submission
         """
         if not nums:
