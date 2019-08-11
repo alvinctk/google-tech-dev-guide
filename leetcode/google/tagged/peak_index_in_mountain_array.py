@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def xpeakIndexInMountainArray(self, A: List[int]) -> int:
         """
