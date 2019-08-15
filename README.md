@@ -194,14 +194,21 @@ Given a parent index
 
 [Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
 
-### Deep copy vs shallow copy 
-- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
-
-[Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
-
-[Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
-
-[Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
+### Complexity
 
 [Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
 
+
+### LeetCode Articles
+
+- [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
+- [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
+
+### Deep copy vs shallow copy 
+
+- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
+
+### Typing Annotations
+- [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
+
+- [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
