@@ -54,7 +54,9 @@
 
 
 ## Pattern: Tree depth first search
+
 - [Easy] Binary tree path sum
+- [Medium](https://leetcode.com/problems/validate-binary-search-tree/) [Validate Binary Search Tree](https://github.com/alvinctk/google-tech-dev-guide/blob/master/leetcode/google/tagged/medium/validate_binary_search_tree.py)  
 - [Medium] All paths for a sum
 - [Medium] Sum of path numbers
 - [Medium] Path with given sequence 
