@@ -85,17 +85,38 @@ Interview study to reinforces basic software engineering skills.
 <summary>Heap</summary>
 
 - Binary Heap
+    - n = len(array)
+    - last parent = ((n - 1) - 1)//2
+    - parent index given i: parent = (i-1)//2
+    - index of left child = 2 * parent + 1 
+    - index of right child = 2 * parent + 2
+    - where 0 <= i < n
+
 ```python3
-n = len(array)
-last = n - 1
-# Index of last parent = (last - 1) // 2
-- Last index of last parent = (last-1)//2
-```
+from typing import List
 
-- Given a parent index of a binary heap
-    - index of left child = 2 * i + 1 
-    - index of right child = 2 * i + 2
+def swap_min_value(array: List, parent, index):
+    n = len(array)
+    if index < n and array[parent] > array[index]:
+        array[parent], array[index] = array[index], array[parent]
+        
+def min_heapify(array: List):
+    
+    n = len(array)
+    last = n - 1
 
+    # Last parent index
+    parent = (last - 1) // 2
+
+    while parent > 0:
+
+        left, right = 2 * parent + 1, 2 * parent + 2
+        
+        swap_min_value(array, parent, left)
+        swap_min_value(array, parent, right)
+        
+        parent -= 1
+ ```
 
 </details>
 
