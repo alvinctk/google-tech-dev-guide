@@ -74,6 +74,41 @@ Interview study to reinforces basic software engineering skills.
 </details>
 
 <details>
+<summary>Python questions on Stackoverflow</summary>
+
+[Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
+
+[Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
+
+[Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
+
+[Python: max and min for integers](https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints)
+
+[Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
+
+[Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
+
+[Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
+
+[Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
+</details>
+
+<details>
+<summary>Complexity</summary>
+
+[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
+
+
+<summary>Deep copy vs shallow copy </summary>
+
+- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
+</details>
+
+#### Typing Annotations
+- [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
+
+- [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
+<details>
 <summary>Textbook Resources</summary>
 
 - [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
@@ -283,34 +318,4 @@ def min_heapify(array: List):
 [String validators](./hackerrank/string_validators.py)
 </details>
 
-## Stackoverflow and other articles
 
-[Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
-
-[Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
-
-[Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
-
-[Python: max and min for integers](https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints)
-
-[Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
-
-[Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
-
-[Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
-
-[Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
-
-### Complexity
-
-[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
-
-
-### Deep copy vs shallow copy 
-
-- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
-
-### Typing Annotations
-- [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
-
-- [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
