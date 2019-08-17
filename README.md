@@ -76,6 +76,7 @@ Interview study to reinforces basic software engineering skills.
 <details>
 <summary>Python questions on Stackoverflow</summary>
 
+
 [Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
 
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
@@ -91,23 +92,27 @@ Interview study to reinforces basic software engineering skills.
 [Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
 
 [Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
-</details>
-
-<details>
-<summary>Complexity</summary>
-
-[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
-
-
-<summary>Deep copy vs shallow copy </summary>
-
-- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
-</details>
 
 #### Typing Annotations
 - [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
 
 - [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
+
+</details>
+
+<details>
+<summary>Complexity</summary>
+
+
+[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
+</details>
+
+<details>
+<summary>Deep copy vs shallow copy </summary>
+
+- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
+</details>
+
 <details>
 <summary>Textbook Resources</summary>
 
