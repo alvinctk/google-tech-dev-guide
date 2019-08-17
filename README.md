@@ -31,11 +31,20 @@ Interview study to reinforces basic software engineering skills.
 - [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
 - [Big Oh Cheatsheet](http://bigocheatsheet.com)
 
+
 #### Question List
 - [50 questions by Byte-Byte](https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pdf)
 - [500 questions by techiedelight](https://www.techiedelight.com) or [via quora](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions?share=1&utm_medium=email&utm_source=hackernewsletter&utm_term=code)
 
 </details>
+
+<details>
+<summary>Complexity - Time and Space</summary>
+
+
+[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
+</details>
+
 
 <details>
 <summary>Practice Your Code</summary>
@@ -74,8 +83,13 @@ Interview study to reinforces basic software engineering skills.
 </details>
 
 <details>
-<summary>Python questions on Stackoverflow</summary>
+<summary>Python Topics</summary>
 
+<details>
+<summary>Deep copy vs shallow copy </summary>
+
+- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
+</details>
 
 [Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
 
@@ -100,25 +114,13 @@ Interview study to reinforces basic software engineering skills.
 
 </details>
 
-<details>
-<summary>Complexity</summary>
-
-
-[Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
-</details>
-
-<details>
-<summary>Deep copy vs shallow copy </summary>
-
-- [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
-</details>
 
 <details>
 <summary>Textbook Resources</summary>
 
 - [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
-- [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
-- [Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
+- [Online text: Introduction to Programming in Python by Robert Sedgewick and Kevin Wayne](https://introcs.cs.princeton.edu/python/home/)
+- [Online text: Algorithms, 4th Java Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
 - Introduction to Algorithms, Third Edition by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein.
 - The Algorithm Design Manual by Second Edition by Steven S. Skiena.
 - Programming Pearls, Second Edition by Jon Bentley
