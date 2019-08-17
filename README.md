@@ -199,7 +199,8 @@ def min_heapify(array: List):
 ## Google Tech Dev Guide
 
 <details>
-<summary>Google Tech Dev Guide></summary>
+<summary>Google Tech Dev Guide</summary>
+
 1. [Find the find longest word in dictionary that is a subsequence of a given string](./Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
 
 2. [Find the max span of a given list](./Foundations_of_Programming/2_max_span/maxSpan.py)
@@ -217,6 +218,15 @@ def min_heapify(array: List):
 ## LeetCode
 
 <details>
+<summary>LeetCode Articles</summary>
+
+- [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
+- [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
+
+</details>
+
+
+<details>
 <summary>LeetCode</summary>
 
 ### Sliding window
@@ -224,8 +234,13 @@ def min_heapify(array: List):
 | :---:        |     :---:      |  :---:        | :---:|  :---:          |  :---:
 | [Maximum sliding window](./leetcode/max_sliding_window.py) |  || | 
 
+</details>
+
 
 ## 70 Questions
+
+<details>
+<summary>algoexpert.io - 70 Questions</summary>
 
 ### Array
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
@@ -259,11 +274,14 @@ def min_heapify(array: List):
 | Insertion Sort| Easy |[.py](./70_question/sorting/insertion_sort.py) |[.py](./70_question/sorting/insertion_sort_test.py)|O(n^2)|O(1)| 
 | Selection Sort| Easy |[.py](./70_question/sorting/selection_sort.py) |[.py](./70_question/sorting/selection_sort_test.py)|O(n^2)|O(1)| 
 
-## Hackerrank
-
 </details>
 
+## Hackerrank
+<details>
+<summary>Hacker Rank</summary>
+
 [String validators](./hackerrank/string_validators.py)
+</details>
 
 ## Stackoverflow and other articles
 
@@ -287,11 +305,6 @@ def min_heapify(array: List):
 
 [Merge sort time and space complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
 
-
-### LeetCode Articles
-
-- [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
-- [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
 
 ### Deep copy vs shallow copy 
 
