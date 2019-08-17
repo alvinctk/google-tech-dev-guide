@@ -67,18 +67,18 @@ Interview study to reinforces basic software engineering skills.
 
 <details>
 <summary>Stack</summary>
+
 - [Linked listed implementation of FILO stack](./Data_Structures/stack_ll.py)
 - [List (or array) implementation of FILO stack](./Data_Structures/stack_array.py)
-</details>
 
-<details>
-<summary></summary>
 </details>
 
 <details>
 <summary>Queue</summary>
+
 - [Linked listed implementation of FIFO queue](./Data_Structures/queue_ll.py)
 - [List (or array) implementation of FIFO queue](./Data_Structures/queue_array.py)
+
 </details>
 
 <details>
