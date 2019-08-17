@@ -85,32 +85,51 @@ Interview study to reinforces basic software engineering skills.
 <details>
 <summary>Python Topics</summary>
 
+
 <details>
 <summary>Deep copy vs shallow copy </summary>
 
 - [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
 </details>
 
-[Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
-
 [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
 
-[Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
+<details>
+<summary>Integers</summary>
 
-[Python: max and min for integers](https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints)
+- [Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
 
-[Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
+- [Python: max and min for integers](https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints)
 
-[Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
+- [Python: min(1, None)](https://stackoverflow.com/questions/6254871/python-minnone-x)
 
-[Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
+</details>
 
-[Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
+<details>
+<summary>List</summary>
 
-#### Typing Annotations
+- [Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
+
+- [Python: removing from a list](https://stackoverflow.com/questions/4426663/how-to-remove-the-first-item-from-a-list)
+
+- [Python: What is the difference between sorted(list) and list.sort()](https://stackoverflow.com/questions/22442378/what-is-the-difference-between-sortedlist-vs-list-sort)
+
+</details>
+
+<details>
+<summary>Dictionary</summary>
+
+- [Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
+
+</details>
+
+<details>
+<summary>Typing Annotations</summary>
+
 - [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
-
 - [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
+
+</details>
 
 </details>
 
