@@ -51,6 +51,22 @@ Interview study to reinforces basic software engineering skills.
 #### Company focused tags
 - [Practice problems - Google Focus by Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?company%5B%5D=Google&page=1&sortBy=accuracy)
 
+#### Google Tech Dev Guide>
+1. [Find the find longest word in dictionary that is a subsequence of a given string](./Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
+
+2. [Find the max span of a given list](./Foundations_of_Programming/2_max_span/maxSpan.py)
+
+3. [Remove all occurance of a pattern in a given string](./Foundations_of_Programming/3_without_string/withoutString.py)
+
+4. [Sum numbers in a given string](./Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
+
+5. [Find a balance sum in an given list](./Foundations_of_Programming/5_can_balance/canBalance.py)
+
+6. [Hangman game](./Foundations_of_Programming/6_hangman/hangman.py)
+
+
+
+
 </details>
 
 <details>
@@ -194,20 +210,10 @@ def min_heapify(array: List):
 	```
 </details>
 
-## **Google Tech Dev Guide**
-1. [Find the find longest word in dictionary that is a subsequence of a given string](./Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
 
-2. [Find the max span of a given list](./Foundations_of_Programming/2_max_span/maxSpan.py)
 
-3. [Remove all occurance of a pattern in a given string](./Foundations_of_Programming/3_without_string/withoutString.py)
-
-4. [Sum numbers in a given string](./Foundations_of_Programming/4_sum_numbers/sumNumbers.py)
-
-5. [Find a balance sum in an given list](./Foundations_of_Programming/5_can_balance/canBalance.py)
-
-6. [Hangman game](./Foundations_of_Programming/6_hangman/hangman.py)
-
-## LeetCode
+<details>
+<summary>LeetCode</summary>
 
 ### Sliding window
 | Problem      | Difficulty     | Solution      | Test | Time Complexity | Space Complexity
@@ -250,6 +256,8 @@ def min_heapify(array: List):
 | Selection Sort| Easy |[.py](./70_question/sorting/selection_sort.py) |[.py](./70_question/sorting/selection_sort_test.py)|O(n^2)|O(1)| 
 
 ## Hackerrank
+
+</details>
 
 [String validators](./hackerrank/string_validators.py)
 
