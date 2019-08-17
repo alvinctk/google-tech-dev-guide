@@ -58,9 +58,11 @@ Interview study to reinforces basic software engineering skills.
 
 <details>
 <summary> Binary Tree </summary>
-- <a href="./Data_Structure/binary_tree.py">Binary Tree</a>-
-[AVL Tree notes](./Data_Structures/avl_tree.md)
+
+- [Binary Tree](./Data_Structures/binary_tree.py)
+- [AVL Tree notes](./Data_Structures/avl_tree.md)
 - [AVL Tree code](./Data_Structures/avl_tree.py)
+
 </details>
 
 <details>
