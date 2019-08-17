@@ -126,14 +126,14 @@ def min_heapify(array: List):
 ## Algorithms
 
 <details>
-<summary><Mergesort/summary>
+<summary><Mergesort</summary>
 
 - [mergesort](./Sorting/mergesort/mergesort.py)
 
 </details>
 
 <details>
-<summary><Quicksort/summary>
+<summary><Quicksort</summary>
 
 - [pivot using midpoint value](./Sorting/quicksort/quicksort.py)
 - [pivot using first value](./70_question/sorting/quick_sort.py)
