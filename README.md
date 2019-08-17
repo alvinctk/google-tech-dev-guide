@@ -58,37 +58,47 @@ Interview study to reinforces basic software engineering skills.
 
 ### Tree
 
-#### Binary Tree
+<details>
+<summary> Binary Tree </summary>
 - [Binary Tree](./Data_Structures/binary_tree.py)
-
-#### AVL Tree 
 - [AVL Tree notes](./Data_Structures/avl_tree.md)
 - [AVL Tree code](./Data_Structures/avl_tree.py)
+</details>
 
-### Stack
+<details>
+<summary>Stack</summary>
+- [Linked listed implementation of FILO stack](./Data_Structures/stack_ll.py)
+- [List (or array) implementation of FILO stack](./Data_Structures/stack_array.py)
+</details>
 
-#### FILO Stack
-- [Linked listed implementation of stack](./Data_Structures/stack_ll.py)
+<details>
+<summary></summary>
+</details>
 
-- [List (or array) implementation of stack](./Data_Structures/stack_array.py)
+<details>
+<summary>Queue</summary>
+- [Linked listed implementation of FIFO queue](./Data_Structures/queue_ll.py)
+- [List (or array) implementation of FIFO queue](./Data_Structures/queue_array.py)
+</details>
 
-### Queue 
+<details>
+<summary>Heap</summary>
 
-#### FIFO Queue
-- [Linked listed implementation of queue](./Data_Structures/queue_ll.py)
-
-- [List (or array) implementation of queue](./Data_Structures/queue_array.py)
-
-### Heap
-
-#### Binary heap
-
-Given the last index in the array
+- Binary Heap
+```python3
+n = len(array)
+last = n - 1
+# Index of last parent = (last - 1) // 2
 - Last index of last parent = (last-1)//2
+```
 
-Given a parent index
-- index of left child = 2 * i + 1 
-- index of right child = 2 * i + 2
+- Given a parent index of a binary heap
+    - index of left child = 2 * i + 1 
+    - index of right child = 2 * i + 2
+
+
+</details>
+
 
 
 ## Algorithms
