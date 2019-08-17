@@ -24,6 +24,8 @@ Interview study to reinforces basic software engineering skills.
 
 ## Tutorials
 - [Hacker Earth Practice](https://www.hackerearth.com/practice/)
+- [Python Quick Tutorials](https://www.techbeamers.com)
+- [Hacker Earth - Bit Manipulation](https://www.hackerearth.com/practice/notes/bit-manipulation/)
 
 ## Interview Resources
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
