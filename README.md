@@ -56,12 +56,10 @@ Interview study to reinforces basic software engineering skills.
 - Python Algorithms - Mastering Basic Algorithms in the Python Language, Second Edition by Magnus Lie Hetland
 ## Data structures
 
-### Tree
-
 <details>
 <summary> Binary Tree </summary>
-- [Binary Tree](./Data_Structures/binary_tree.py)
-- [AVL Tree notes](./Data_Structures/avl_tree.md)
+- <a href="./Data_Structure/binary_tree.py">Binary Tree</a>-
+[AVL Tree notes](./Data_Structures/avl_tree.md)
 - [AVL Tree code](./Data_Structures/avl_tree.py)
 </details>
 
