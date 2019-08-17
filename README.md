@@ -92,7 +92,8 @@ Interview study to reinforces basic software engineering skills.
     - index of right child = 2 * parent + 2
     - where 0 <= i < n
 
-```python3
+
+```
 from typing import List
 
 def swap_min_value(array: List, parent, index):
@@ -116,7 +117,7 @@ def min_heapify(array: List):
         swap_min_value(array, parent, right)
         
         parent -= 1
- ```
+```
 
 </details>
 
