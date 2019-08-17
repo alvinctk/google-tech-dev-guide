@@ -87,15 +87,20 @@ Interview study to reinforces basic software engineering skills.
 
 
 <details>
-<summary>Deep copy vs shallow copy </summary>
+<summary>Python - Deep copy vs shallow copy </summary>
 
 - [Geeks for geeks: copy - shallow vs deep](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
 </details>
 
-[Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
+<details>
+<summary> Python - When to use</summary>
+
+- [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
+
+</summary>
 
 <details>
-<summary>Integers</summary>
+<summary>Python - Integers</summary>
 
 - [Python: Checking for integer overflow](https://stackoverflow.com/questions/45528637/checking-integer-overflow-in-python)
 
@@ -106,7 +111,7 @@ Interview study to reinforces basic software engineering skills.
 </details>
 
 <details>
-<summary>List</summary>
+<summary>Python - List</summary>
 
 - [Python: understanding slice notation](https://stackoverflow.com/questions/509211/understanding-slice-notation)
 
@@ -117,14 +122,14 @@ Interview study to reinforces basic software engineering skills.
 </details>
 
 <details>
-<summary>Dictionary</summary>
+<summary>Python - Dictionary</summary>
 
 - [Python: Deleting element from a dictionary](https://stackoverflow.com/questions/5844672/delete-an-element-from-a-dictionary)
 
 </details>
 
 <details>
-<summary>Typing Annotations</summary>
+<summary>Python - Typing Annotations</summary>
 
 - [Python: Using Python's Type Annotations](https://dev.to/dstarner/using-pythons-type-annotations-4cfe)
 - [Python Documentation: Typing](https://docs.python.org/3/library/typing.html)
