@@ -97,7 +97,7 @@ Interview study to reinforces basic software engineering skills.
 
 - [Python: list vs tuple, when to use each](https://stackoverflow.com/questions/1708510/python-list-vs-tuple-when-to-use-each)
 
-</summary>
+</details>
 
 <details>
 <summary>Python - Integers</summary>
