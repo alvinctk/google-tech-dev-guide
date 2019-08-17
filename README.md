@@ -3,23 +3,58 @@
 ## Introduction 
 Interview study to reinforces basic software engineering skills.
 
-## Study Plan
+## Interview Preparation 
+
+<details>
+<summary>Technical Phone Interview Preparation</summary>
+
+- [Practice on a google doc](https://www.quora.com/What-are-some-tips-for-practicing-coding-on-Google-docs-for-a-phone-screen)
+
+</details>
+
+
+<details>
+<summary>Technical Interview Study Plan</summary>
+
+### Overall Plan
 - [Average googler four weeks study plan](https://www.linkedin.com/pulse/average-googler-four-weeks-study-plan-milad-naseri/?trk=v-feed)
+
+### Other sites guides
+- [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
+- [Geeks for Geeks - Company preparation](https://www.geeksforgeeks.org/company-preparation/)
+- [Geeks for Geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
+
+### Pattern Plan
 - [Patterns For Coding Interview](./Plan/Patterns_For_Coding_Interview.md)
 - [Patterns For Dynamic Programming](./Plan/Patterns_For_Dynamic_Programming.md)
 - [Analysis for different sorting techniques](./Plan/Analysis_of_Sorting.md)
+- [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
+- [Big Oh Cheatsheet](http://bigocheatsheet.com)
 
-## Practice Your Code
+### Question List
+- [50 questions by Byte-Byte](https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pdf)
+- [500 questions by techiedelight](https://www.techiedelight.com) or [via quora](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions?share=1&utm_medium=email&utm_source=hackernewsletter&utm_term=code)
+
+</details>
+
+<details>
+<summary>Practice Your Code</summary>
+
+### Sites to practice your code
+- [LeetCode](https://leetcode.com)
+- [Geeks for Geeks](https://www.geeksforgeeks.org)
+- [HackerRank](https://www.hackerrank.com)
 - [Project Euler](https://projecteuler.net)
 - [Topcoder](https://www.topcoder.com)
-- [HackerRank](https://www.hackerrank.com)
-- [LeetCode](https://leetcode.com)
-- [Practice problems - Google Focus by Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?company%5B%5D=Google&page=1&sortBy=accuracy)
-- [Practice on a google doc](https://www.quora.com/What-are-some-tips-for-practicing-coding-on-Google-docs-for-a-phone-screen)
-
-## General Interview Preparation 
 - [Puzzles](https://www.geeksforgeeks.org/category/puzzles/)
-- [Geeks for Geeks](https://www.geeksforgeeks.org)
+
+### Company focused tags
+- [Practice problems - Google Focus by Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?company%5B%5D=Google&page=1&sortBy=accuracy)
+
+</details>
+
+<details>
+<summary>Lectures and Tutorial and Guides</summary>
 
 ## Style Guide
 - [Google Style Guide](https://google.github.io/styleguide/)
@@ -30,21 +65,15 @@ Interview study to reinforces basic software engineering skills.
 - [Python Quick Tutorials](https://www.techbeamers.com)
 - [Hacker Earth - Bit Manipulation](https://www.hackerearth.com/practice/notes/bit-manipulation/)
 
-## Interview Resources
-- [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
-- [Geeks for Geeks - Company preparation](https://www.geeksforgeeks.org/company-preparation/)
-- [Geeks for Geeks - Google interview preparation](https://www.geeksforgeeks.org/google-interview-preparation/)
-- [50 questions by Byte-Byte](https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pdf)
-- [500 questions by techiedelight](https://www.techiedelight.com) or [via quora](https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions?share=1&utm_medium=email&utm_source=hackernewsletter&utm_term=code)
-- [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
-- [Big Oh Cheatsheet](http://bigocheatsheet.com)
-
 ## Lecture Videos 
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - To Do: watch the dynamic programming videos 
 
+</details>
 
-## Textbook Resources
+<details>
+<summary>Textbook Resources</summary>
+
 - [Online text: Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 - [Online text: Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 - [Online text: Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/home/)
@@ -54,6 +83,8 @@ Interview study to reinforces basic software engineering skills.
 - Data Structures and Algorithm Analysis in Java, Third Edition by Mark Allen Weiss.
 - Data Structures and Algorithms with Python, Springer Press, by Kent D. Lee and Steve Hubbard
 - Python Algorithms - Mastering Basic Algorithms in the Python Language, Second Edition by Magnus Lie Hetland
+</details>
+
 ## Data structures
 
 <details>
