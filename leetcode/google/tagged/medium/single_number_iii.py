@@ -5,6 +5,8 @@ class Solution:
         """
         Time complexity: O(N) linear scan
         Space complexity: O(1)
+        Runtime: 64 ms, faster than 96.20% of Python3 online submissions for Single Number III.
+        Memory Usage: 15.6 MB, less than 50.00% of Python3 online submissions for Single Number III.
         """
         # Find the bit that contains two numbers
         x = 0
