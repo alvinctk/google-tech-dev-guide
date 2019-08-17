@@ -124,17 +124,25 @@ def min_heapify(array: List):
 
 ## Algorithms
 
-### Mergesort
+<details>
+<summary><Mergesort/summary>
+
 - [mergesort](./Sorting/mergesort/mergesort.py)
 
+</details>
 
-### Quicksort
+<details>
+<summary><Quicksort/summary>
+
 - [pivot using midpoint value](./Sorting/quicksort/quicksort.py)
-
 - [pivot using first value](./70_question/sorting/quick_sort.py)
 
+</details>
 
-### Heapsort 
+
+<details>
+<summary>Heapsort</summary>
+
 - [Heapsort using binary heap](./70_question/sorting/heap_sort.py)
 
 - To sort elements in ascending order:
@@ -152,6 +160,7 @@ def min_heapify(array: List):
 	    build min heap from i=0 to n-1-i
 	    swap 0 and n-1-i element in order to put the min element at n-1-i index
 	```
+</details>
 
 ## **Google Tech Dev Guide**
 1. [Find the find longest word in dictionary that is a subsequence of a given string](./Foundations_of_Programming/1_find_longest_word_in_dictionary_that_is_a_subsequence_of_a_given_string)
