@@ -5,6 +5,9 @@ Interview study to reinforces basic software engineering skills.
 
 ## Study Plan
 - [Average googler four weeks study plan](https://www.linkedin.com/pulse/average-googler-four-weeks-study-plan-milad-naseri/?trk=v-feed)
+- [Patterns For Coding Interview](./Plan/Patterns_For_Coding_Interview.md)
+- [Patterns For Dynamic Programming](./Plan/Patterns_For_Dynamic_Programming.md)
+- [Analysis for different sorting techniques](./Plan/Analysis_of_Sorting.md)
 
 ## Practice Your Code
 - [Project Euler](https://projecteuler.net)
