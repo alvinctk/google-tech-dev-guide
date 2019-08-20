@@ -22,6 +22,44 @@ x ^= (1 << n)
 y = x & (1 << n)
 ```
 
+- Test a number is odd or even
+```
+if x & 1:
+    print("odd")
+else:
+    print("even")
+```
+
+- Swap two numbers without using a temporary variable
+    - Using arithmetic operators
+    ```
+    # This works if x + y does not cause arithmetic overflow
+    x, y = 10, 15
+    x = x + y # Now x becomes 25
+    y = x - y # Now y becomes 10
+    x = x - y # Now x becoems 15
+
+    ```
+    - Bitwise XOR method
+    ```
+    x, y = 10, 15 # 10 = (1010), 15 = (1111)
+    x = x ^ y # x becomes 5 (0101)
+    y = x ^ y # y becomes 10 (1010)
+    x = x ^ y # x becomes 15 (1111)
+    ```
+
+    - Above two methods fail when x and y points to the same object.
+    ```
+    # Bitwise XOR based method
+    x = x ^ x; // x becomes 0
+    x = x ^ x; // x remains 0
+    x = x ^ x; // x remains 0
+
+    # Arithmetic based method
+    x = x + x; // x becomes 2x
+    x = x – x; // x becomes 0
+    x = x – x; // x remains 0
+    ```
 - count bits
 ```
 def count_bits(x: int) ->:
@@ -35,7 +73,10 @@ def count_bits(x: int) ->:
 ## Bitwise Examples: 
 - `x | 2` is used to set bit 1 of `x` to 1
 - `x & 1` is used to test if bit 0 of `x` is 1. 
-
+- Check if a number is odd or even
+```
+x
+```
 
 ## Sets
 
