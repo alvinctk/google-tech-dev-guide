@@ -27,8 +27,11 @@ Interview study to reinforces basic software engineering skills.
 #### Pattern Plan
 - [Patterns For Coding Interview](./Plan/Patterns_For_Coding_Interview.md)
 - [Patterns For Dynamic Programming](./Plan/Patterns_For_Dynamic_Programming.md)
-- [Analysis for different sorting techniques](./Plan/Analysis_of_Sorting.md)
 - [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
+
+### Review
+- [Bitwise operation](./Plan/bitwise_operation.md)
+- [Analysis for different sorting techniques](./Plan/Analysis_of_Sorting.md)
 - [Big Oh Cheatsheet](http://bigocheatsheet.com)
 
 
