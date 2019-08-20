@@ -38,8 +38,8 @@ else:
     x = x + y # Now x becomes 25
     y = x - y # Now y becomes 10
     x = x - y # Now x becoems 15
-
     ```
+
     - Bitwise XOR method
     ```
     x, y = 10, 15 # 10 = (1010), 15 = (1111)
@@ -73,10 +73,6 @@ def count_bits(x: int) ->:
 ## Bitwise Examples: 
 - `x | 2` is used to set bit 1 of `x` to 1
 - `x & 1` is used to test if bit 0 of `x` is 1. 
-- Check if a number is odd or even
-```
-x
-```
 
 ## Sets
 
