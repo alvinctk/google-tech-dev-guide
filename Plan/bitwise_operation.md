@@ -7,7 +7,7 @@ n = the bit number
 ```
 x |= (1 << n)
 ```
-- ### Clear a bit
+- Clear a bit
 ```
 x &= ~(1 << n)
 ```
