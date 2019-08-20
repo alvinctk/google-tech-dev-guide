@@ -120,3 +120,10 @@ print(first ^ second)
 {8, 9, 7}
 {1, 2, 3, 7, 8, 9}
 ```
+
+## Further Readings
+- [A memory efficient doubly Linked List using XOR](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/)
+- [1s and 2s complement binary number](https://www.geeksforgeeks.org/1s-2s-complement-binary-number/)
+- [Bitwise operations](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
+- [Bitwise hacks](https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/)
+
