@@ -215,11 +215,12 @@ class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
         Do not return anything
-        Time complexity: O(N log N) + O(M^2) <= O(N^2)
+        Time complexity: O(N log N) + O(D * M^2) <= O(D * N^2) <= O(9N^2) <= O(N^2)
             O(1) times to sort after filled ones =O(1) * O(N log N)
             M = N - K, where K represent filled ones, M represent empty squares
-            Traversing down the sequences = O(M ^ 2), since M times to call next_seq
-            next seq = O(M)
+            Traversing down the sequences = O(D * M ^ 2), since M times to call next_seq
+            next_seq = O(M) to find the minimum square
+            each next seq go through possible D values.
 
         Space complexity: O(D^2) where D = dimension of a row/column
         Runtime: 48 ms, faster than 95.57% of Python3 online submissions for Sudoku Solver.
