@@ -217,6 +217,15 @@ class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
         Do not return anything
+        Time complexity: O(N log N) + O(M^2) <= O(N^2)
+            O(1) times to sort after filled ones =O(1) * O(N log N)
+            M = N - K, where K represent filled ones, M represent empty squares
+            Traversing down the sequences = O(M ^ 2), since M times to call next_seq
+            next seq = O(M)
+
+        Space complexity: O(D) where D = dimension of a row
+        Runtime: 48 ms, faster than 95.57% of Python3 online submissions for Sudoku Solver.
+        Memory Usage: 13.9 MB, less than 10.71% of Python3 online submissions for Sudoku Solver.
         """
         sudoku_solver = Sudoku(board)
         sudoku_solver.solve_board()
