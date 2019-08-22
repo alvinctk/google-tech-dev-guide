@@ -68,7 +68,6 @@ class Sudoku:
         """
         if not sequences:
             return sequences
-        ones = []
         others = []
         for square in sequences:
             possible = self.possible_values(square)
@@ -77,7 +76,6 @@ class Sudoku:
             if search_space == 1:
                 block, row, col = self.address[square]
                 self.board[row][col] = self.entry_string[possible]
-                #self.entries[square] = possible
                 self.set_value_unavailable(square, possible)
             else:
                 others.append(square)
