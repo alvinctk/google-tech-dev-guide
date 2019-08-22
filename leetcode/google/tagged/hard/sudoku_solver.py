@@ -223,7 +223,7 @@ class Solution:
             Traversing down the sequences = O(M ^ 2), since M times to call next_seq
             next seq = O(M)
 
-        Space complexity: O(D) where D = dimension of a row
+        Space complexity: O(D^2) where D = dimension of a row/column
         Runtime: 48 ms, faster than 95.57% of Python3 online submissions for Sudoku Solver.
         Memory Usage: 13.9 MB, less than 10.71% of Python3 online submissions for Sudoku Solver.
         """
