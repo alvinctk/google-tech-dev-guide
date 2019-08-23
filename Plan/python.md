@@ -1,4 +1,83 @@
+## Set
 
+[Tutorial](https://realpython.com/python-sets/)
+- (Bitwise xor) Compute the symmetric difference between sets
+> x1.symmetric_difference(x2)
+> x1 ^ x2 [^ x3 ...]
+```
+>>> x1 = {'foo', 'bar', 'baz'}
+>>> x2 = {'baz', 'qux', 'quux'}
+
+>>> x1.symmetric_difference(x2)
+{'foo', 'qux', 'quux', 'bar'}
+
+>>> x1 ^ x2
+{'foo', 'qux', 'quux', 'bar'}
+
+>>> a = {1, 2, 3, 4, 5}
+>>> b = {10, 2, 3, 4, 50}
+>>> c = {1, 50, 100}
+
+>>> a ^ b ^ c
+{100, 5, 10}
+```
+
+As with the difference operator, when multiple sets are specified, the operation is performed from left to right.
+
+Curiously, although the ^ operator allows multiple sets, the .symmetric_difference() method doesn’t
+
+- Compute the difference between two or more sets
+
+> x1.difference(x2[, x3 ...])
+> x1 - x2 [- x3 ...]
+
+```
+>>> x1 = {'foo', 'bar', 'baz'}
+>>> x2 = {'baz', 'qux', 'quux'}
+
+>>> x1.difference(x2)
+{'foo', 'bar'}
+
+>>> x1 - x2
+{'foo', 'bar'}
+```
+
+```
+>>> a = {1, 2, 3, 30, 300}
+>>> b = {10, 20, 30, 40}
+>>> c = {100, 200, 300, 400}
+
+>>> a.difference(b, c)
+{1, 2, 3}
+
+>>> a - b - c
+{1, 2, 3}
+```
+
+- Intersection (bitwise and)
+```
+>>> x1 = {'foo', 'bar', 'baz'}
+>>> x2 = {'baz', 'qux', 'quux'}
+
+>>> x1.intersection(x2)
+{'baz'}
+
+>>> x1 & x2
+{'baz'}
+```
+
+```
+>>> a = {1, 2, 3, 4}
+>>> b = {2, 3, 4, 5}
+>>> c = {3, 4, 5, 6}
+>>> d = {4, 5, 6, 7}
+
+>>> a.intersection(b, c, d)
+{4}
+
+>>> a & b & c & d
+{4}
+```
 
 ## [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product)
 
