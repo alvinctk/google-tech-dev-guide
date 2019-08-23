@@ -8,7 +8,7 @@ It is equivalent to nested for-loops.
 For example, product(A, B) returns the same as ((x,y) for x in A for y in B).
 For example, product(A, B, C) returns the same as ((x, y, z) for x in A for y in B for z in C)
 
-i[According to Python 3 itertools.product documentation](https://docs.python.org/3/library/itertools.html#itertools.product):
+[According to Python 3 itertools.product documentation](https://docs.python.org/3/library/itertools.html#itertools.product),
 > Cartesian product of input iterables.
 > 
 > Roughly equivalent to nested for-loops in a generator expression. For example, product(A, B) returns the same as ((x,y) for x in A for y in B).
