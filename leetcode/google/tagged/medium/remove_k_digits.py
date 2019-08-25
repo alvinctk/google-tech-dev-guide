@@ -25,6 +25,7 @@ class Solution:
                 if k > 0:
                     k -= 1
                     remove.append(stack.pop())
+                    # don't count k for non-leading zeros
                     while not stack and i < n and num[i] == "0":
                         i += 1
                     continue
