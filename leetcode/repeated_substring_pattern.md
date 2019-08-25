@@ -13,7 +13,7 @@ Basic idea from [here](https://leetcode.com/problems/repeated-substring-pattern/
 
 6. Let i be index in S2 where S starts then repeated substring length i + 1 and repeated substring S[0: i+1]
 
-```
+```python
 def repeatedSubstringPattern(self, str):
 
         """
@@ -28,7 +28,7 @@ def repeatedSubstringPattern(self, str):
 
 But the code can be nicer, at least better use the in operator:
 
-```
+```python
 def repeatedSubstringPattern(self, str):
     return str in (2 * str)[1:-1]
 ```
