@@ -42,9 +42,10 @@ Fine. How do we apply that to this problem? We consider every rotation of string
 If we have a string that is periodic (i.e. is made up of strings that are the same and repeat R times), then we can check if the string is equal to some rotation of itself, and if it is, then we know that the string is periodic. Checking if S is a sub-string of (S+S)[1:-1] basically checks if the string is present in a rotation of itself for all values of R such that 0 < R < len(S).
 
 ## Another simply explanation:
-
+```python
 ss = (s + s)[1:-1]
 return ss.find(s) != -1
+```
 
 The maximum length of a "repeated" substring that you could get from a string would be half it's length
 For example, s = "abcdabcd", "abcd" of len = 4, is the repeated substring.
