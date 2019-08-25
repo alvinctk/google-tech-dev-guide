@@ -176,18 +176,17 @@ Consider function char f(int i) { return s[i%N]; }, obviously it has a period N.
 
 **"1 => 2"**: From condition 1, we have for any i in [0,N)
 
-    - `s[i] == (s+s)[i+L] == s[(i+L)%N]`
-    which means L is also a positive period of function f. 
-    Note that `N == L * (N / L ) + N % L`, so we have
+- `s[i] == (s+s)[i+L] == s[(i+L)%N]`
+    - which means L is also a positive period of function f. 
+    - Note that `N == L * (N / L ) + N % L`, so we have
     
-    - `f(i) == f(i+N) == f(i+L*(N/L)+N%L) == f(i+N%L)`,
-    which means N%L is also a period of f. 
-    Note that N%L < L but L := (s+s).find(s,1) is the minimum positive period of function f, so we must have N%L == 0. 
-    Note that `i == L*(i/L)+i%L`, so we have
+- `f(i) == f(i+N) == f(i+L*(N/L)+N%L) == f(i+N%L)`,
+    - which means N%L is also a period of f. 
+    - Note that N%L < L but L := (s+s).find(s,1) is the minimum positive period of function f, so we must have N%L == 0. 
+    - Note that `i == L*(i/L)+i%L`, so we have
 
-    - `s[i] == f(i) == f(L*(i/L)+i%L) == f(i%L) == s[i%L]`, so condition 2 is obtained.
+- `s[i] == f(i) == f(L*(i/L)+i%L) == f(i%L) == s[i%L]`, so condition 2 is obtained.
 
 **"2=>1"**: If condition 2 holds, for any i in [0,N), note that N%L == 0, we have
-
-    - `(s+s)[i+L] == s[(i+L)%N] == s[((i+L)%N)%L] == s[(i+L)%L] == s[i]`, 
+- `(s+s)[i+L] == s[(i+L)%N] == s[((i+L)%N)%L] == s[(i+L)%L] == s[i]`, 
      which means `(s+s).substr(L,N) == s`, so condition 1 is obtained.
