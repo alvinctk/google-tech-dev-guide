@@ -30,6 +30,8 @@ def encode(self, s, memo={}):
     return memo[s]
 ```
 
+## Basic idea using repeated substring pattern to solve the original problem 
+
 Basic idea from [here](https://leetcode.com/problems/repeated-substring-pattern/discuss/94334/easy-python-solution-with-explaination):
 1. First char of input string is first char of repeated substring
 
