@@ -29,11 +29,10 @@ Interview study to reinforces basic software engineering skills.
 - [Patterns For Dynamic Programming](./Plan/Patterns_For_Dynamic_Programming.md)
 - [Top 10 algorithms in interview questions by Geeks for Geeks](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/) 
 
-### Review
+#### Review
 - [Bitwise operation](./Plan/bitwise_operation.md)
 - [Analysis for different sorting techniques](./Plan/Analysis_of_Sorting.md)
 - [Big Oh Cheatsheet](http://bigocheatsheet.com)
-
 
 #### Question List
 - [50 questions by Byte-Byte](https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pdf)
@@ -88,6 +87,7 @@ Interview study to reinforces basic software engineering skills.
 <details>
 <summary>Python Topics</summary>
 
+- [Finding the most middle value](https://stackoverflow.com/questions/20904368/javascript-finding-the-most-middle-value-in-an-array)
 
 <details>
 <summary>Python - Deep copy vs shallow copy </summary>
@@ -291,7 +291,7 @@ def min_heapify(array: List):
 
 - [Leetcode optimize three sums](https://stackoverflow.com/questions/46410814/optimizing-solution-to-three-sum)
 - [Implement stack using two queues](https://stackoverflow.com/questions/688276/implement-stack-using-two-queues)
-
+- [All permutation of a string](http://k2code.blogspot.com/2011/09/permutation-of-string-in-java-efficient.html)
 </details>
 
 
