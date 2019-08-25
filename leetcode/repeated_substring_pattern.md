@@ -168,7 +168,8 @@ Why condition (s+s).find(s,1) < s.size() is equivalent to substring repetition?
 Proof: Let N = s.size() and L := (s+s).find(s,1), actually we can prove that the following 2 statements are equivalent:
 
     1. 0 < L < N;
-    2. N%L == 0 and s[i] == s[i%L] is true for any i in [0, N). (which means s.substr(0,L) is the repetitive substring)
+    2. N%L == 0 and s[i] == s[i%L] is true for any i in [0, N). 
+       (which means s.substr(0,L) is the repetitive substring)
 
 
 Consider function char f(int i) { return s[i%N]; }, obviously it has a period N.
