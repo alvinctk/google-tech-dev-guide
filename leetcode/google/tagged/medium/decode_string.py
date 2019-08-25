@@ -1,5 +1,12 @@
 class Solution(object):
     def decodeString(self, s):
+        """
+        Time complexity: O(N) linear scan through all elements of s
+        Space complexity: O(N) to store auxillary data
+        Runtime: 28 ms, faster than 97.19% of Python3 online submissions for Decode String.
+        Memory Usage: 13.8 MB, less than 5.77% of Python3 online submissions for Decode String.
+        """
+
         stack = []
         multiply = 0
         current = []
