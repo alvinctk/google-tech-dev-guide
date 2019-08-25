@@ -1,5 +1,35 @@
 # Repeated substring pattern
 
+The technique of repeated substring pattern is used to solve the original problem. 
+
+
+## Original problem
+
+[LeetCode problem: Encode string with shortest length](https://leetcode.com/problems/encode-string-with-shortest-length)
+
+Given a non-empty string, encode the string such that its encoded length is the shortest.
+
+The encoding rule is: `k[encoded_string]`, where the encoded_string inside the square brackets is being repeated exactly k times.
+
+Note:
+
+- k will be a positive integer and encoded string will not be empty or have extra space.
+- You may assume that the input string contains only lowercase English letters. The string's length is at most 160.
+- If an encoding process does not make the string shorter, then do not encode it. If there are several solutions, return any of them is fine.
+Either don't encode s at all, or encode it as one part k[...] or encode it as multiple parts (in which case we can somewhere split it into two subproblems). Whatever is shortest. Uses @rsrs3's nice trick of searching s in s + s.
+
+## Solution to solve original problem
+```python
+def encode(self, s, memo={}):
+    if s not in memo:
+        n = len(s)
+        i = (s + s).find(s, 1)
+        one = '%d[%s]' % (n / i, self.encode(s[:i])) if i < n else s
+        multi = [self.encode(s[:i]) + self.encode(s[i:]) for i in xrange(1, n)]
+        memo[s] = min([s, one] + multi, key=len)
+    return memo[s]
+```
+
 Basic idea from [here](https://leetcode.com/problems/repeated-substring-pattern/discuss/94334/easy-python-solution-with-explaination):
 1. First char of input string is first char of repeated substring
 
