@@ -19,6 +19,55 @@ Note:
 Either don't encode s at all, or encode it as one part k[...] or encode it as multiple parts (in which case we can somewhere split it into two subproblems). Whatever is shortest. Uses @rsrs3's nice trick of searching s in s + s.
 
 ## Solution to solve original problem
+
+**Python 3**
+```python
+def encode(self, s: str, memo={}) -> str:
+    
+if s not in memo:
+        
+        n = len(s)
+        i = (s + s).find(s, 1)
+        
+        one = "{}[{}]".format(n//i, self.encode(s[:i])) if i < n else s
+        multi = [self.encode(s[:i]) + self.encode(s[i:]) for i in range(1, n)]
+        memo[s] = min([s, one] + multi, key=len)
+        print("i={}, one={}, multi={}, memo[{}]={}".format(i, one, multi, s, memo[s]))
+    return memo[s]
+```
+
+```
+Example 1: 
+
+input = "aaa"
+
+stdout:
+i=1, one=a, multi=[], memo[a]=a
+i=1, one=2[a], multi=['aa'], memo[aa]=aa
+i=1, one=3[a], multi=['aaa', 'aaa'], memo[aaa]=aaa
+
+output:
+"aaa"
+
+Example 2:
+input= "aaaaaaaaaa"
+
+stdout:
+i=1, one=a, multi=[], memo[a]=a
+i=1, one=2[a], multi=['aa'], memo[aa]=aa
+i=1, one=3[a], multi=['aaa', 'aaa'], memo[aaa]=aaa
+i=1, one=4[a], multi=['aaaa', 'aaaa', 'aaaa'], memo[aaaa]=aaaa
+i=1, one=5[a], multi=['aaaaa', 'aaaaa', 'aaaaa', 'aaaaa'], memo[aaaaa]=5[a]
+i=1, one=6[a], multi=['a5[a]', 'aaaaaa', 'aaaaaa', 'aaaaaa', '5[a]a'], memo[aaaaaa]=6[a]
+i=1, one=7[a], multi=['a6[a]', 'aa5[a]', 'aaaaaaa', 'aaaaaaa', '5[a]aa', '6[a]a'], memo[aaaaaaa]=7[a]
+i=1, one=8[a], multi=['a7[a]', 'aa6[a]', 'aaa5[a]', 'aaaaaaaa', '5[a]aaa', '6[a]aa', '7[a]a'], memo[aaaaaaaa]=8[a]
+i=1, one=9[a], multi=['a8[a]', 'aa7[a]', 'aaa6[a]', 'aaaa5[a]', '5[a]aaaa', '6[a]aaa', '7[a]aa', '8[a]a'], memo[aaaaaaaaa]=9[a]
+i=1, one=10[a], multi=['a9[a]', 'aa8[a]', 'aaa7[a]', 'aaaa6[a]', '5[a]5[a]', '6[a]aaaa', '7[a]aaa', '8[a]aa', '9[a]a'], memo[aaaaaaaaaa]=10[a]
+
+output= "10[a]"
+```
+
+**Python 2:**
 ```python
 def encode(self, s, memo={}):
     if s not in memo:
