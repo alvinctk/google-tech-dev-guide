@@ -3,7 +3,11 @@ from heapq import heappush
 from collections import defaultdict
 class Solution:
     def networkDelayTime(self, times, N, K):
-        q, seen, adj = [(0, K)], {}, collections.defaultdict(list)
+        """
+        Time Complexity - O(E log E) since heap might store E number of edges and each operation takes log E.
+        Space Complexity - O(E) graph and q stores at most E number of entries
+        """
+        q, seen, adj = [(0, K)], {}, defaultdict(list)
 
         for u, v, w in times:
             adj[u].append((v, w))
