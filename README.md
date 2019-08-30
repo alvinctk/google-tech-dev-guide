@@ -19,7 +19,7 @@ Interview study to reinforces basic software engineering skills.
 #### Overall Plan
 - [Average googler four weeks study plan](https://www.linkedin.com/pulse/average-googler-four-weeks-study-plan-milad-naseri/?trk=v-feed)
 
-[According to a comment on LeetCode dicussion](https://leetcode.com/discuss/career/368612/Folks-who-cracked-google-what-of-LC-hard-problems-were-you-able-to-solve-on-your-own/333033), 
+- [According to a LeetCode discussion on number of problems to solve,](https://leetcode.com/discuss/career/368612/Folks-who-cracked-google-what-of-LC-hard-problems-were-you-able-to-solve-on-your-own/333033), 
 > 1. I didn't solve hard problems at all. I solved around 400 medium problems and all easy problems on LeetCode. It's better to understand the approaches used and learn to come up with the solution yourself, instead of looking up the answer.
 
 > 2. Don't look the answer at all. If you can't solve the problem in an hour, even with drawing on a notebook with a pen, just skip the question. Don't look the answer. Go back to this question in two weeks and try another hour. If you still can't solve it - try to find a hint, if there's not hints, then lookup the answer. Review this question in a month or so.
@@ -32,6 +32,24 @@ Interview study to reinforces basic software engineering skills.
 
 > 6. Quality > Quantity.
 > 7. Good luck.
+
+-[According to a LeetCode discussion on areas to focus on,](https://leetcode.com/discuss/career/368612/Folks-who-cracked-google-what-of-LC-hard-problems-were-you-able-to-solve-on-your-own/332803)
+
+> You should be able to crack a decent amount of hard LCs, that being said, Google focuses pretty heavily on breadth.
+So be sure to practice extensively on:
+
+> backtracking(appears very often)
+
+> dynamic programming
+
+> graphs (dfs, bfs, union find [usually asked as a follow up question to optimize a purely dfs/bfs approach], dijkstra)
+
+> two pointers (very often)
+
+> binary search (very very often)
+> I've noticed somewhat of a new trend at Google, namely binary search on monotonic functions, i.e. : https://leetcode.com/problems/split-array-largest-sum/.
+
+> Several others have mentioned getting interviews on this kind of problem, and you're pretty much gonna be able to come up with a solution instantly if you map it to binary search on sight.
 
 
 #### Other sites guides
