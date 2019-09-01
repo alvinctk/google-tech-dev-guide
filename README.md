@@ -107,6 +107,7 @@ So be sure to practice extensively on:
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 #### Tutorials
+- [Google For Education - Python](https://developers.google.com/edu/python/)
 - [Hacker Earth Practice](https://www.hackerearth.com/practice/)
 - [Python Quick Tutorials](https://www.techbeamers.com)
 - [Hacker Earth - Bit Manipulation](https://www.hackerearth.com/practice/notes/bit-manipulation/)
